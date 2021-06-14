@@ -1,0 +1,12 @@
+.header_top {
+  width: 100%;
+  height: 2px;
+  background-position: center;
+  background-image: url('../img/top_color_line.png');
+}
+
+.navbar-nav {
+  .nav-link.active,.nav-link:hover {
+    background-color: $secondary;
+  }
+}

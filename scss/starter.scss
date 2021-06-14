@@ -34,7 +34,11 @@ $offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 $body-color: #333;
 $body-bg: #fff;
 $border-radius: .4rem;
-$success: #7952b3;
+$primary:#0c3c8e;
+$secondary: #14b5f0;
+$navbar-padding-y:0;
+$nav-link-padding-y:0.8rem;
+$navbar-nav-link-padding-x:1.5rem;
 
 // Required
 @import "bootstrap/scss/functions";
@@ -84,12 +88,9 @@ $success: #7952b3;
 //
 // Custom styles
 //
+@import "header";
 
-@import "icon-list";
 
-body {
-  padding: 3rem 1.5rem;
-}
 
 // Style Bootstrap icons
 .bi {
