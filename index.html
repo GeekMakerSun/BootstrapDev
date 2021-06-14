@@ -4,9 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/skitter-slider@5/dist/skitter.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/skitter-slider@5/examples/css/styles.min.css">
   <link rel="stylesheet" href="assets/css/starter.css">
   <title>某油墨涂料有限公司</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
 </head>
 
 <body>
@@ -62,83 +65,34 @@
         </div>
       </nav>
     </header>
-
-    <h1>Get started with Bootstrap</h1>
-    <div class="col-lg-8 px-0">
-      <p class="fs-4">You've successfully loaded up the Bootstrap npm starter project! It's loaded up with <a
-          href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap 5</a>, <a
-          href="https://icons.getbootstrap.com/">Bootstrap Icons</a>, and tooling for compiling our Sass and JavaScript
-        to your needs.</p>
-      <p>If this button appears blue and the link appears purple, you've done it!</p>
-    </div>
-
-    <button type="button" class="btn btn-primary me-3" data-bs-toggle="offcanvas"
-      data-bs-target="#offcanvasExample">Toggle offcanvas</button>
-    <a href="#" class="text-success">Example link</a>
-
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-        <div>
-          Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists,
-          etc.
-        </div>
-        <div class="dropdown mt-3">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-            data-bs-toggle="dropdown">
-            Dropdown button
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <hr class="my-5 w-25 mx-0">
-
-    <div class="row">
-      <div class="col-md-6">
-        <h2>Adding Bootstrap Icons</h2>
-        <p><a href="https://icons.getbootstrap.com/">Bootstrap Icons</a> are included with the SVG sprite here, but
-          there are other <a href="https://icons.getbootstrap.com/#usage">usage options</a>, too. They're styleable with
-          text utilities and more.</p>
-
-        <svg class="bi text-danger" width="32" height="32">
-          <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#heart-fill" />
-        </svg>
-        <svg class="bi text-dark" width="32" height="32">
-          <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#toggles" />
-        </svg>
-        <svg class="bi text-primary" width="32" height="32">
-          <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#shop" />
-        </svg>
-      </div>
-
-      <div class="col-md-6">
-        <h2>Guides</h2>
-        <p>Read more detailed instructions and documentation on using or contributing to Bootstrap.</p>
-        <ul class="icon-list">
-          <li><a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap quick start guide</a>
+    <div class="skitter-large-box">
+      <div class="skitter skitter-large with-dots">
+        <ul>
+          <li>
+            <a href="#">
+              <img src="./assets/img/banner1.jpg" />
+            </a>
+            <!-- <div class="label_text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#see-more"
+                  class="btn btn-small btn-yellow">See more</a></p>
+            </div> -->
           </li>
-          <li><a href="https://getbootstrap.com/docs/5.0/getting-started/webpack/">Bootstrap Webpack guide</a></li>
-          <li><a href="https://getbootstrap.com/docs/5.0/getting-started/parcel/">Bootstrap Parcel guide</a></li>
-          <li><a href="https://getbootstrap.com/docs/5.0/getting-started/build-tools/">Contributing to Bootstrap</a>
+          <li>
+            <a href="#">
+              <img src="./assets/img/banner2.jpg" />
+            </a>
+            <!-- <div class="label_text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#see-more"
+                  class="btn btn-small btn-yellow">See more</a></p>
+            </div> -->
           </li>
         </ul>
       </div>
     </div>
 
-    <hr class="my-5">
 
-    <p class="text-muted">Created and open sourced by the Bootstrap team. Licensed MIT.</p>
   </div>
-
+  <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3,npm/jquery.easing@1,npm/skitter-slider@5"></script>
   <script type="module" src="assets/js/starter.js"></script>
 </body>
 
