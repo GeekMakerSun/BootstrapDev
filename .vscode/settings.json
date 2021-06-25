@@ -10,7 +10,7 @@
   "search.smartCase": true,
   "npm.enableRunFromFolder": true,
   "workbench.colorTheme": "Material",
-  "workbench.iconTheme": "Aliyun Serverless",
+  "workbench.iconTheme": "theia-file-icons",
   "workbench.productIconTheme": "material-product-icons",
   "editor.wordWrap": "on",
   "path-intellisense.autoSlashAfterDirectory": true,
