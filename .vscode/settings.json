@@ -1,0 +1,69 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.tabCompletion": "on",
+  "editor.inlineSuggest.enabled": true,
+  "files.eol": "\n",
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "workbench.settings.useSplitJSON": true,
+  "search.showLineNumbers": true,
+  "search.smartCase": true,
+  "npm.enableRunFromFolder": true,
+  "workbench.colorTheme": "Material",
+  "workbench.iconTheme": "Aliyun Serverless",
+  "workbench.productIconTheme": "material-product-icons",
+  "editor.wordWrap": "on",
+  "path-intellisense.autoSlashAfterDirectory": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "editor.linkedEditing": true,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "merge-conflict.autoNavigateNextConflict.enabled": true,
+  "git.alwaysSignOff": true,
+  "git.followTagsWhenSync": true,
+  "git.showPushSuccessNotification": true,
+  "git.supportCancellation": true,
+  "git.useCommitInputAsStashMessage": true,
+  "gitHistory.alwaysPromptRepositoryPicker": true,
+  "editor.comments.ignoreEmptyLines": false,
+  "[json]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "files.associations": {
+    ".prettierrc": "json",
+    ".stylelintrc": "json"
+  },
+  "git.postCommitCommand": "push",
+  "security.workspace.trust.untrustedFiles": "open",
+  "remote.downloadExtensionsLocally": true,
+  "problems.showCurrentInStatus": true,
+  "extensions.closeExtensionDetailsOnViewChange": true,
+  "scm.defaultViewMode": "tree",
+  "scm.providerCountBadge": "auto",
+  "css.trace.server": "messages",
+  "emmet.triggerExpansionOnTab": true,
+  "git.alwaysShowStagedChangesResourceGroup": true,
+  "gitHistory.editorTitleButtonOpenRepo": true,
+  "gitHistory.sideBySide": true,
+  "gitProjectManager.supportsSVN": true,
+  "gitProjectManager.supportsMercurial": true,
+  "gitProjectManager.storeRepositoriesBetweenSessions": true,
+  "gitProjectManager.warnIfFolderNotFound": true,
+  "html.format.endWithNewline": true,
+  "html.format.wrapLineLength": 0,
+  "html.trace.server": "messages",
+  "json.trace.server": "messages",
+  "editor.formatOnSave": true,
+  "beautify.ignore": "",
+  "editor.tabSize": 2,
+  "markdown.extension.tableFormatter.normalizeIndentation": true,
+  "redhat.telemetry.enabled": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
+}
