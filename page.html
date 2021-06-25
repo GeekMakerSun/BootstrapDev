@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>单页</title>
+  <!-- Favicon -->
+  <link rel="icon" href="assets/img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" />
+  <!-- skitter-slider -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/skitter-slider@5/dist/skitter.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/skitter-slider@5/examples/css/styles.min.css" />
+  <!-- aos -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2/dist/aos.min.css" />
+  <!-- lightgallery -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2/css/lightgallery.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2/css/lightgallery-bundle.min.css" />
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@6/swiper-bundle.min.css">
+  <!-- Main css file -->
+  <link rel="stylesheet" href="assets/css/starter.css?v=1" />
+  <!-- Custom styles -->
+  <style></style>
+</head>
+
+<body>
+  <!-- S header -->
+  <header class="">
+    <div class="header_top"></div>
+    <div class="container">
+      <div class="d-flex align-items-center py-3">
+        <a class="d-flex align-items-center me-auto" href="/">
+          <img class="img-fluid me-2" src="assets/img/logo.png" style="width: 83px" alt="" />
+          <div class="">
+            <div class="text-dark fs-3 fw-bold">无锡市晋峰新材料科技有限公司</div>
+            <div class="text-black-50 font-monospace fw-bold text-uppercase">
+              Wuxi Jinfeng New Material Technology Co., Ltd.
+            </div>
+          </div>
+        </a>
+        <div class="row d-flex align-items-center">
+          <div class="col-2">
+            <i class="fs-3 fas fa-phone-alt text-secondary"></i>
+          </div>
+          <div class="col-10">
+            <div>全国免费服务热线：</div>
+            <div class="h3">400-208-27XX</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- E header -->
+  <!-- S 导航条 -->
+  <nav class="navbar navbar-expand navbar-dark bg-primary sticky-top">
+    <div class="container">
+      <div class="collapse navbar-collapse" id="navbarsExample07">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./index.html">网站首页</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./page.html">单页</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#">列表页</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./list-product.html">产品列表页</a></li>
+              <li><a class="dropdown-item" href="./list.html">文章列表页</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#">详情页</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./show-product.html">产品详情页</a></li>
+              <li><a class="dropdown-item" href="./show.html">产品列表页</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- E 导航条 -->
+  <main class="page">
+    <!-- S 轮播图 -->
+    <div class="mainSlide">
+      <img src="assets/img/page_banner.jpg" class="container-fluid px-0" alt="轮播图" />
+      <!-- S 轮播图 置顶文字层 -->
+      <div class="mainSlide-fixed">
+        <!-- S container -->
+        <div class="container">
+          <div class="fs-3 fw-bold text-danger" data-aos="fade-left" data-aos-duration="3000">
+            为客户提供一体式
+          </div>
+          <div class="fs-1 fw-bold text-primary" data-aos="fade-right" data-aos-duration="3000">
+            全方位解决方案及顾问式服务
+          </div>
+        </div>
+        <!-- E container -->
+      </div>
+      <!-- E 轮播图 置顶文字层 -->
+      <!-- S 轮播图 页面导航 -->
+      <div class="mainSlide_nav">
+        <div class="container">
+          <div class="card border bg-light shadow-sm text-center">
+            <!-- S row -->
+            <div class="row">
+              <!-- S col -->
+              <div class="col-6 col-md" data-aos="fade-up">
+                <a class="mainSlide_nav-link active" href="#">公司介绍</a>
+              </div>
+              <!-- E col -->
+              <!-- S col -->
+              <div class="col-6 col-md" data-aos="fade-up" data-aos-delay="100">
+                <a class="mainSlide_nav-link" href="#">企业资质</a>
+              </div>
+              <!-- E col -->
+              <!-- S col -->
+              <div class="col-6 col-md" data-aos="fade-up" data-aos-delay="200">
+                <a class="mainSlide_nav-link" href="#">联系我们</a>
+              </div>
+              <!-- E col -->
+            </div>
+            <!-- E row -->
+          </div>
+        </div>
+      </div>
+      <!-- E 页面导航 -->
+    </div>
+    <!-- E 轮播图 -->
+    <!-- S 面包屑 -->
+    <section class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li><i class="text-muted fas fa-home pe-2"></i></li>
+          <li class="breadcrumb-item"><a href="#">首页</a></li>
+          <li class="breadcrumb-item"><a href="#">分类</a></li>
+          <li class="breadcrumb-item active" aria-current="page">当前页</li>
+        </ol>
+      </nav>
+    </section>
+    <!-- E 面包屑 -->
+    <!-- S 正文部分 -->
+    <section class="container mb-7">
+      <article class="card articleAdd card-body text-muted" id="articleAdd">
+        <p>某某油墨涂料有限公司是一家从事化学原料贸易及技术研发的科贸型企业。</p>
+        <p>
+          我们服务于涂料油墨、胶粘剂、橡胶、工业清洗、日化洗护、污水处理等行业的化学原料销售及研发。对于化学原料销售，公司一直与国内外化工厂家紧密合作，通过互联网新时代销售以高效、快捷、质量保证、价格透明方式服务于各行业。
+        </p>
+        <p>
+          对于研发新技术、新产品，公司与多家高校、行业内专家紧密合作，不断追求产品技术的创新。实现技术共享，产品资源、市场资源以及资金资源的共享。
+        </p>
+        <p>
+          公司一直秉承“天道酬勤、轻财人聚、厚德载物、德行天下”的发展理念，服务于涂料油墨及胶粘剂橡胶行业、工业及日用清洗行业、污水处理行业等并与客户形成了长期稳定的合作共赢局面。公司长期坚持“环保、水性以及差异化产品、替代及领先国外同质化产品”为研发、经营方向，在各行业都开发出**、领先的产品。并得到广大客户的认可。
+        </p>
+        <p>
+          “不忘初心，方得始终”，越佳贸易将继续与广大客户携手奋进，共同打造一个诚信、创新、负责的企业！
+        </p>
+        <img src="assets/img/abbx.jpg" alt="22" />
+      </article>
+    </section>
+    <!-- E 正文部分 -->
+  </main>
+  <!-- S footer -->
+  <footer class="py-5 bg-primary text-white py-5" style="background-image: url('assets/img/map.png')">
+    <!-- S container -->
+    <div class="container">
+      <!-- S row -->
+      <div class="row justify-content-between">
+        <!-- S col -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <a class="d-flex align-items-center me-auto text-reset" href="/">
+            <img class="img-fluid me-2 text-reset" src="assets/img/logo-white.png" style="width: 83px" alt="" />
+            <div class="fs-3 fw-bold">无锡晋峰油墨</div>
+          </a>
+          <ul class="list-unstyled mt-4">
+            <li>地 址：无锡市惠山区阳山镇安阳山村丁庄工业园区</li>
+            <li>电 话：0510-83262188</li>
+            <li>手 机：13812528738</li>
+            <li>邮 箱：wxxlym@163.com</li>
+            <li>阿里店铺：http://wxxlym.1688.com</li>
+          </ul>
+        </div>
+        <!-- E col -->
+        <!-- S col -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <!-- S row -->
+          <div class="row row-cols-2" id="footerEwm">
+            <div class="col text-white text-center">
+              <img src="http://placeholder.idcd.com/?w=200&h=200&text=200x200&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=30&fontfamily=1" class="img-fluid" />
+              <div class="mt-2" style="font-size: 13px">扫码关注公众号</div>
+            </div>
+            <div class="col text-white text-center">
+              <img src="http://placeholder.idcd.com/?w=200&h=200&text=200x200&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=30&fontfamily=1" class="img-fluid" />
+              <div class="mt-2" style="font-size: 13px">扫码访问移动端</div>
+            </div>
+          </div>
+          <!-- E row -->
+        </div>
+        <!-- E col -->
+        <!-- S col -->
+        <div class="col-12 col-md-12 col-lg-auto">
+          <!-- S row -->
+          <div class="row">
+            <!-- S col -->
+            <div class="col me-5">
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#" class="link-light">首页</a>
+                </li>
+                <li>
+                  <a href="#" class="link-light">关于我们</a>
+                </li>
+                <li>
+                  <a href="#" class="link-light">产品中心</a>
+                </li>
+                <li>
+                  <a href="#" class="link-light">新闻资讯</a>
+                </li>
+                <li>
+                  <a href="#" class="link-light">在线留言</a>
+                </li>
+                <li>
+                  <a href="#" class="link-light">联系我们</a>
+                </li>
+              </ul>
+            </div>
+            <!-- E col -->
+            <!-- S col -->
+            <div class="col">
+              <ul class="list-unstyled">
+                <li class="">产品中心</li>
+                <li>
+                  <a href="#" class="link-light text-nowrap">纸张系列凹印油墨</a>
+                </li>
+                <li>
+                  <a href="#" class="link-light text-nowrap">塑料复合油墨</a>
+                </li>
+                <li>
+                  <a href="#" class="link-light text-nowrap">真空电镀UV光油</a>
+                </li>
+                <li>
+                  <a href="#" class="link-light text-nowrap">水松纸油墨</a>
+                </li>
+                <li>
+                  <a href="#" class="link-light text-nowrap">塑料表印油墨</a>
+                </li>
+              </ul>
+            </div>
+            <!-- E col -->
+          </div>
+          <!-- E row -->
+        </div>
+        <!-- E col -->
+      </div>
+      <!-- E row -->
+    </div>
+    <!-- E container -->
+    <!-- S footer_copyright -->
+    <div class="footer_copyright">
+      <!-- S container -->
+      <div class="container link-light">
+        COPYRIGHT © 2020 ALL RIGHTS RESERVED 无锡晋峰油墨​ 苏ICP备200311XX号-X
+      </div>
+      <!-- E container -->
+    </div>
+    <!-- E footer_copyright -->
+  </footer>
+  <!-- S customer-service -->
+  <aside class="customer-service">
+    <div class="customer-service-1" style="background-image: url('assets/img/customer-service-1.png')">
+      <span>客服</span>
+    </div>
+    <div class="customer-service-2" style="background-image: url('assets/img/customer-service-2.png')">
+      <span class="title">在线客服</span>
+      <div class="con d-flex flex-column">
+        <a href="#">
+          <i class="fab fa-qq"></i>
+          <span>QQ客服</span>
+        </a>
+        <a href="#">
+          <i class="fab fa-weixin"></i>
+          <span>微信客服</span>
+        </a>
+        <a href="#">
+          <i class="fas fa-comment-dots"></i>
+          <span>在线咨询</span>
+        </a>
+        <a href="#">
+          <i class="fas fa-envelope"></i>
+          <span>邮件沟通</span>
+        </a>
+      </div>
+    </div>
+  </aside>
+  <!-- E customer-service -->
+  <!-- E footer -->
+</body>
+<!-- jquery -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+<!-- jquery.easing -->
+<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1/jquery.easing.min.js"></script>
+<!-- skitter -->
+<script src="https://cdn.jsdelivr.net/npm/skitter-slider@5/dist/jquery.skitter.min.js"></script>
+<!-- aos -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2/dist/aos.min.js"></script>
+<!-- lightgallery -->
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2/lightgallery.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2/plugins/zoom/lg-zoom.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2/plugins/thumbnail/lg-thumbnail.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2/plugins/rotate/lg-rotate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2/plugins/fullscreen/lg-fullscreen.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2/plugins/hash/lg-hash.min.js"></script>
+<!-- Swiper -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@6/swiper-bundle.min.js"></script>
+<!-- Main js file -->
+<script type="module" src="assets/js/starter.js?v=1"></script>
+<!-- Custom scripts -->
+<script type="text/javascript">
+  // var Title = $(".articleAdd .card-title").text()
+  var Title = '修改为单页标题';
+  // 重构img标签
+  $('.articleAdd img').replaceWith(function () {
+    var imgSrc = $(this).attr('src');
+    return (
+      '<img src=' +
+      imgSrc +
+      " class='img-fluid img-thumbnail shadow-2-strong d-block mx-auto my-1' alt=" +
+      Title +
+      ' title=' +
+      Title +
+      '  />'
+    );
+  });
+</script>
+
+</html>
