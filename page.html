@@ -298,45 +298,45 @@
   </aside>
   <!-- E customer-service -->
   <!-- E footer -->
+  <!-- jquery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <!-- jquery.easing -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery.easing@1/jquery.easing.min.js"></script>
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- skitter -->
+  <script src="https://cdn.jsdelivr.net/npm/skitter-slider@5/dist/jquery.skitter.min.js"></script>
+  <!-- aos -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2/dist/aos.min.js"></script>
+  <!-- lightgallery -->
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2/lightgallery.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2/plugins/zoom/lg-zoom.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2/plugins/thumbnail/lg-thumbnail.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2/plugins/rotate/lg-rotate.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2/plugins/fullscreen/lg-fullscreen.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2/plugins/hash/lg-hash.min.js"></script>
+  <!-- Swiper -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@6/swiper-bundle.min.js"></script>
+  <!-- Main js file -->
+  <script type="module" src="assets/js/starter.js?v=1"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript">
+    // var Title = $(".articleAdd .card-title").text()
+    var Title = '修改为单页标题';
+    // 重构img标签
+    $('.articleAdd img').replaceWith(function () {
+      var imgSrc = $(this).attr('src');
+      return (
+        '<img src=' +
+        imgSrc +
+        " class='img-fluid img-thumbnail shadow-2-strong d-block mx-auto my-1' alt=" +
+        Title +
+        ' title=' +
+        Title +
+        '  />'
+      );
+    });
+  </script>
 </body>
-<!-- jquery -->
-<script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
-<!-- jquery.easing -->
-<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1/jquery.easing.min.js"></script>
-<!-- bootstrap -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js"></script>
-<!-- skitter -->
-<script src="https://cdn.jsdelivr.net/npm/skitter-slider@5/dist/jquery.skitter.min.js"></script>
-<!-- aos -->
-<script src="https://cdn.jsdelivr.net/npm/aos@2/dist/aos.min.js"></script>
-<!-- lightgallery -->
-<script src="https://cdn.jsdelivr.net/npm/lightgallery@2/lightgallery.umd.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/lightgallery@2/plugins/zoom/lg-zoom.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/lightgallery@2/plugins/thumbnail/lg-thumbnail.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/lightgallery@2/plugins/rotate/lg-rotate.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/lightgallery@2/plugins/fullscreen/lg-fullscreen.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/lightgallery@2/plugins/hash/lg-hash.min.js"></script>
-<!-- Swiper -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@6/swiper-bundle.min.js"></script>
-<!-- Main js file -->
-<script type="module" src="assets/js/starter.js?v=1"></script>
-<!-- Custom scripts -->
-<script type="text/javascript">
-  // var Title = $(".articleAdd .card-title").text()
-  var Title = '修改为单页标题';
-  // 重构img标签
-  $('.articleAdd img').replaceWith(function () {
-    var imgSrc = $(this).attr('src');
-    return (
-      '<img src=' +
-      imgSrc +
-      " class='img-fluid img-thumbnail shadow-2-strong d-block mx-auto my-1' alt=" +
-      Title +
-      ' title=' +
-      Title +
-      '  />'
-    );
-  });
-</script>
 
 </html>
