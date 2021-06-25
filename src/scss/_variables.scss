@@ -48,11 +48,28 @@
   font-style: normal;
 }
 
-:root {
-  --mdb-font-roboto: 'SourceHanSansCN', BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
-    Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
-    'Noto Color Emoji';
-}
+$font-family-sans-serif: // Cross-platform generic font family (default user interface font)
+'SourceHanSansCN',
+system-ui,
+// Safari for macOS and iOS (San Francisco)
+-apple-system,
+// Windows
+"Segoe UI",
+// Android
+Roboto,
+// Basic web fallback
+"Helvetica Neue",
+Arial,
+// Linux
+"Noto Sans",
+"Liberation Sans",
+// Sans serif fallback
+sans-serif,
+// Emoji fonts
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol",
+"Noto Color Emoji" !default;
 
 $body-color: #333;
 $body-bg: #f4f4f4;
