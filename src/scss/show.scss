@@ -1,6 +1,9 @@
 @import 'variables';
 
 .show {
+  article {
+    z-index: 555;
+  }
 
   h2,
   h3 {
@@ -50,27 +53,22 @@
     margin-left: -48.5vw;
     text-align: center;
     width: 97vw;
-    height: 5rem;
-    line-height: 5rem;
+    height: 7rem;
+    line-height: 7rem;
 
     &>a {
-      position: absolute;
       font-size: 3rem;
-      width: 3rem;
+      width: 5rem;
       height: 100%;
-      color: $blue-300;
-      background-color: $blue-100;
-      border-radius: $border-radius;
 
-      &:first-child {
-        left: 0;
+      &>i {
+        padding: 1rem 0.5rem;
+        color: $blue-300;
+        background-color: $blue-100;
+        border-radius: $border-radius;
       }
 
-      &:last-child {
-        right: 0;
-      }
-
-      &:hover {
+      &:hover>i {
         color: $blue-400;
         background-color: $blue-200;
       }
