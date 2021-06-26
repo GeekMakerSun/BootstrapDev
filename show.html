@@ -15,11 +15,6 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/skitter-slider@5/examples/css/styles.min.css" />
   <!-- aos -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2/dist/aos.min.css" />
-  <!-- lightgallery -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2/css/lightgallery.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2/css/lightgallery-bundle.min.css" />
-  <!-- Swiper -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@6/swiper-bundle.min.css">
   <!-- Main css file -->
   <link rel="stylesheet" href="assets/css/starter.css?v=1" />
   <!-- Custom styles -->
@@ -190,6 +185,14 @@
         <p style="text-indent: 2em; text-align: left;">对我个人而言，标题二不仅仅是一个重大的事件，还可能会改变我的人生。 一般来讲，我们都必须务必慎重的考虑考虑。 要想清楚，标题二，到底是一种怎么样的存在。 了解清楚标题二到底是一种怎么样的存在，是解决一切问题的关键。 一般来讲，我们都必须务必慎重的考虑考虑。 我们不得不面对一个非常尴尬的事实，那就是， 所谓标题二，关键是标题二需要如何写。 了解清楚标题二到底是一种怎么样的存在，是解决一切问题的关键。 总结的来说， 对我个人而言，标题二不仅仅是一个重大的事件，还可能会改变我的人生。 而这些并不是完全重要，更加重要的问题是， 克劳斯·莫瑟爵士在不经意间这样说过，教育需要花费钱，而无知也是一样。这似乎解答了我的疑惑。 莎士比亚说过一句富有哲理的话，人的一生是短的，但如果卑劣地过这一生，就太长了。带着这句话，我们还要更加慎重的审视这个问题。</p>
         <h2 style="text-indent: 2em; text-align: left;">[ 四、此处为标题1此处为标题1 ]</h2>
       </article>
+      <div class="show_control">
+        <a class="show_control-prev" href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="上一篇">
+          <i class="fas fa-chevron-left"></i>
+        </a>
+        <a class="show_control-next" href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="下一篇">
+          <i class="fas fa-chevron-right"></i>
+        </a>
+      </div>
     </section>
     <!-- E 正文部分 -->
   </main>
@@ -337,15 +340,6 @@
   <script src="https://cdn.jsdelivr.net/npm/skitter-slider@5/dist/jquery.skitter.min.js"></script>
   <!-- aos -->
   <script src="https://cdn.jsdelivr.net/npm/aos@2/dist/aos.min.js"></script>
-  <!-- lightgallery -->
-  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2/lightgallery.umd.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2/plugins/zoom/lg-zoom.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2/plugins/thumbnail/lg-thumbnail.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2/plugins/rotate/lg-rotate.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2/plugins/fullscreen/lg-fullscreen.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2/plugins/hash/lg-hash.min.js"></script>
-  <!-- Swiper -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@6/swiper-bundle.min.js"></script>
   <!-- Main js file -->
   <script type="module" src="assets/js/starter.js?v=1"></script>
   <!-- Custom scripts -->
@@ -358,7 +352,7 @@
       return (
         '<img src=' +
         imgSrc +
-        " class='img-fluid img-thumbnail shadow-2-strong d-block mx-auto my-1' alt=" +
+        " class='img-fluid img-thumbnail shadow-2-strong d-block mx-auto my-1' data-bs-toggle='tooltip' alt=" +
         Title +
         ' title=' +
         Title +

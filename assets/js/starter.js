@@ -24,3 +24,4 @@ import "../js/aos.js";
 import "../js/skitter.js";
 import "../js/fullScreen.js";
 import "../js/sidebar.js";
+import "../js/bootstrap-components.js";
