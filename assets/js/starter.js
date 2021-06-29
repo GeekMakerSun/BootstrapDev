@@ -20,8 +20,9 @@
 
 // import "../../node_modules/bootstrap/js/dist/util.js";
 // import "../../node_modules/bootstrap/js/dist/modal.js";
-import "../js/aos.js";
-import "../js/skitter.js";
-import "../js/fullScreen.js";
-import "../js/sidebar.js";
-import "../js/bootstrap-components.js";
+import "../js/aos.js"; // 滚动页面加载
+import "../js/skitter.js"; // 轮播特效
+import "../js/fullScreen.js"; // 全屏
+import "../js/sidebar.js"; // 带本地存储功能的显示/隐藏侧栏
+import "../js/bootstrap-components.js"; // bootstrap组件
+import "../js/masonry.js"; // 多个分页合并成瀑布流页面

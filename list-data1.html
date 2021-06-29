@@ -79,7 +79,7 @@
     </div>
   </nav>
   <!-- E 导航条 -->
-  <main class="list">
+  <main class="list masonry">
     <!-- S 轮播图 -->
     <div class="mainSlide">
       <img alt="轮播图" class="container-fluid px-0" src="assets/img/page_banner.jpg" />
@@ -138,198 +138,242 @@
     <!-- E 轮播图 -->
     <!-- S 正文部分 -->
     <section class="container mb-5">
+      <!-- S 面包屑 -->
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li>您现在的位置：</li>
+          <li class="breadcrumb-item"><a href="#">首页</a></li>
+          <li class="breadcrumb-item"><a href="#">文章分类1</a></li>
+          <li aria-current="page" class="breadcrumb-item active">瀑布流加载 数据块1</li>
+        </ol>
+      </nav>
+      <!-- E 面包屑 -->
       <!-- S 正文部分 -->
-      <article>
-        <!-- S 正文部分 面包屑 -->
-
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li>您现在的位置：</li>
-            <li class="breadcrumb-item"><a href="#">首页</a></li>
-            <li class="breadcrumb-item"><a href="#">文章分类1</a></li>
-            <li aria-current="page" class="breadcrumb-item active">瀑布流数据加载1</li>
-          </ol>
-        </nav>
-        </div>
-        <!-- E 正文部分 面包屑 -->
-        <!-- S row -->
-        <div class="row list_masonry" data-masonry='{"percentPosition": true }'>
+      <article class="">
+        <!-- S row data-masonry='{"percentPosition": true }' -->
+        <div class="row masonry_article">
           <!-- S col -->
-          <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+          <div class="masonry_item col-sm-6 col-lg-4 col-xl-3 mb-4">
             <div class="card">
-              <a class="list_masonry-pic card-img-top" data-bs-toggle="tooltip" href="#" style="background-image: url('https://placeholder.idcd.com/?w=400&h=300&text=400x300&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1');" title="文章标题">
+              <a class="masonry_pic card-img-top" href="#" style="background-image: url('https://placeholder.idcd.com/?w=400&h=300&text=400x300&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1');">
               </a>
               <div class="card-body">
-                <a class="list_masonry-title card-title fs-5 text-muted" data-bs-toggle="tooltip" href="#" title="文章标题">[ 此处为文章标题此处为文章标题1 ]</a>
-                <p class="list_masonry-desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
+                <a class="masonry_title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题2-1 ]</a>
+                <p class="masonry_desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
                 <p><small class="text-muted">2021-6-25</small></p>
               </div>
             </div>
           </div>
+          <!-- E col -->
           <!-- S col -->
-          <!-- S col -->
-          <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+          <div class="masonry_item col-sm-6 col-lg-4 col-xl-3 mb-4">
             <div class="card">
-              <a class="list_masonry-pic card-img-top" data-bs-toggle="tooltip" href="#" style="background-image: url('https://placeholder.idcd.com/?w=400&h=300&text=400x300&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1');" title="文章标题">
+              <a class="masonry_pic card-img-top" href="#" style="background-image: url('https://placeholder.idcd.com/?w=400&h=300&text=400x300&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1');">
               </a>
               <div class="card-body">
-                <a class="list_masonry-title card-title fs-5 text-muted" data-bs-toggle="tooltip" href="#" title="文章标题">[ 此处为文章标题此处为文章标题2 ]</a>
-                <p class="list_masonry-desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
+                <a class="masonry_title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题2-2 ]</a>
+                <p class="masonry_desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
                 <p><small class="text-muted">2021-6-25</small></p>
               </div>
             </div>
           </div>
+          <!-- E col -->
           <!-- S col -->
-          <!-- S col -->
-          <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
-            <div class="card">
-              <a class="list_masonry-pic card-img-top" href="#" style="background-image: url('https://placeholder.idcd.com/?w=400&h=300&text=400x300&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1');">
-              </a>
-              <div class="card-body">
-                <a class="list_masonry-title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题3 ]</a>
-                <p class="list_masonry-desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
-                <p><small class="text-muted">2021-6-25</small></p>
-              </div>
-            </div>
-          </div>
-          <!-- S col -->
-          <!-- S col -->
-          <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
-            <div class="card">
-              <a class="list_masonry-pic card-img-top" href="#" style="background-image: url('https://placeholder.idcd.com/?w=400&h=300&text=400x300&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1');">
-              </a>
-              <div class="card-body">
-                <a class="list_masonry-title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题4 ]</a>
-                <p class="list_masonry-desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
-                <p><small class="text-muted">2021-6-25</small></p>
-              </div>
-            </div>
-          </div>
-          <!-- S col -->
-          <!-- S col -->
-          <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+          <div class="masonry_item col-sm-6 col-lg-4 col-xl-3 mb-4">
             <div class="card">
               <div class="card-body">
-                <a class="list_masonry-title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题5 ]</a>
+                <a class="masonry_title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题2-3 ]</a>
                 <p class="card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
                 <p><small class="text-muted">2021-6-25</small></p>
               </div>
             </div>
           </div>
+          <!-- E col -->
           <!-- S col -->
-          <!-- S col -->
-          <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+          <div class="masonry_item col-sm-6 col-lg-4 col-xl-3 mb-4">
             <div class="card">
-              <a class="list_masonry-pic card-img-top" href="#" style="background-image: url('https://placeholder.idcd.com/?w=400&h=300&text=400x300&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1');">
+              <a class="masonry_pic card-img-top" href="#" style="background-image: url('https://placeholder.idcd.com/?w=400&h=300&text=400x300&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1');">
               </a>
               <div class="card-body">
-                <a class="list_masonry-title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题6 ]</a>
-                <p class="list_masonry-desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
+                <a class="masonry_title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题2-4 ]</a>
+                <p class="masonry_desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
                 <p><small class="text-muted">2021-6-25</small></p>
               </div>
             </div>
           </div>
+          <!-- E col -->
           <!-- S col -->
-          <!-- S col -->
-          <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+          <div class="masonry_item col-sm-6 col-lg-4 col-xl-3 mb-4">
             <div class="card">
-              <a class="list_masonry-pic card-img-top" href="#" style="background-image: url('https://placeholder.idcd.com/?w=400&h=300&text=400x300&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1');">
+              <a class="masonry_pic card-img-top" href="#" style="background-image: url('https://placeholder.idcd.com/?w=400&h=300&text=400x300&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1');">
               </a>
               <div class="card-body">
-                <a class="list_masonry-title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题7 ]</a>
-                <p class="list_masonry-desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
+                <a class="masonry_title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题2-5 ]</a>
+                <p class="masonry_desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
                 <p><small class="text-muted">2021-6-25</small></p>
               </div>
             </div>
           </div>
+          <!-- E col -->
           <!-- S col -->
-          <!-- S col -->
-          <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+          <div class="masonry_item col-sm-6 col-lg-4 col-xl-3 mb-4">
             <div class="card">
-              <a class="list_masonry-pic card-img-top" href="#" style="background-image: url('https://placeholder.idcd.com/?w=400&h=300&text=400x300&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1');">
+              <a class="masonry_pic card-img-top" href="#" style="background-image: url('https://placeholder.idcd.com/?w=400&h=300&text=400x300&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1');">
               </a>
               <div class="card-body">
-                <a class="list_masonry-title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题8 ]</a>
-                <p class="list_masonry-desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
+                <a class="masonry_title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题2-6 ]</a>
+                <p class="masonry_desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
                 <p><small class="text-muted">2021-6-25</small></p>
               </div>
             </div>
           </div>
+          <!-- E col -->
           <!-- S col -->
-          <!-- S col -->
-          <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+          <div class="masonry_item col-sm-6 col-lg-4 col-xl-3 mb-4">
             <div class="card">
-              <a class="list_masonry-pic card-img-top" href="#" style="background-image: url('https://placeholder.idcd.com/?w=400&h=300&text=400x300&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1');">
+              <div class="card-body">
+                <a class="masonry_title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题2-7 ]</a>
+                <p class="masonry_desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
+                <p><small class="text-muted">2021-6-25</small></p>
+              </div>
+            </div>
+          </div>
+          <!-- E col -->
+          <!-- S col -->
+          <div class="masonry_item col-sm-6 col-lg-4 col-xl-3 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <a class="masonry_title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题2-8 ]</a>
+                <p class="masonry_desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
+                <p><small class="text-muted">2021-6-25</small></p>
+              </div>
+            </div>
+          </div>
+          <!-- E col -->
+          <!-- S col -->
+          <div class="masonry_item col-sm-6 col-lg-4 col-xl-3 mb-4">
+            <div class="card">
+              <a class="masonry_pic card-img-top" href="#" style="background-image: url('https://placeholder.idcd.com/?w=400&h=300&text=400x300&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1');">
               </a>
               <div class="card-body">
-                <a class="list_masonry-title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题9 ]</a>
-                <p class="list_masonry-desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
+                <a class="masonry_title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题2-9 ]</a>
+                <p class="masonry_desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
                 <p><small class="text-muted">2021-6-25</small></p>
               </div>
             </div>
           </div>
+          <!-- E col -->
           <!-- S col -->
-          <!-- S col -->
-          <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+          <div class="masonry_item col-sm-6 col-lg-4 col-xl-3 mb-4">
             <div class="card">
-              <a class="list_masonry-pic card-img-top" href="#" style="background-image: url('https://placeholder.idcd.com/?w=400&h=300&text=400x300&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1');">
+              <a class="masonry_pic card-img-top" href="#" style="background-image: url('https://placeholder.idcd.com/?w=400&h=300&text=400x300&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1');">
               </a>
               <div class="card-body">
-                <a class="list_masonry-title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题10 ]</a>
-                <p class="list_masonry-desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
+                <a class="masonry_title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题2-10 ]</a>
+                <p class="masonry_desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
                 <p><small class="text-muted">2021-6-25</small></p>
               </div>
             </div>
           </div>
+          <!-- E col -->
           <!-- S col -->
-          <!-- S col -->
-          <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+          <div class="masonry_item col-sm-6 col-lg-4 col-xl-3 mb-4">
             <div class="card">
               <div class="card-body">
-                <a class="list_masonry-title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题11 ]</a>
-                <p class="list_masonry-desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
+                <a class="masonry_title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题2-11 ]</a>
+                <p class="card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
                 <p><small class="text-muted">2021-6-25</small></p>
               </div>
             </div>
           </div>
+          <!-- E col -->
           <!-- S col -->
-          <!-- S col -->
-          <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+          <div class="masonry_item col-sm-6 col-lg-4 col-xl-3 mb-4">
             <div class="card">
-              <div class="card-body">
-                <a class="list_masonry-title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题12 ]</a>
-                <p class="list_masonry-desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
-                <p><small class="text-muted">2021-6-25</small></p>
-              </div>
-            </div>
-          </div>
-          <!-- S col -->
-          <!-- S col -->
-          <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
-            <div class="card">
-              <div class="card-body">
-                <a class="list_masonry-title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题13 ]</a>
-                <p class="list_masonry-desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
-                <p><small class="text-muted">2021-6-25</small></p>
-              </div>
-            </div>
-          </div>
-          <!-- S col -->
-          <!-- S col -->
-          <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
-            <div class="card">
-              <a class="list_masonry-pic card-img-top" href="#" style="background-image: url('https://placeholder.idcd.com/?w=400&h=300&text=400x300&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1');">
+              <a class="masonry_pic card-img-top" href="#" style="background-image: url('https://placeholder.idcd.com/?w=400&h=300&text=400x300&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1');">
               </a>
               <div class="card-body">
-                <a class="list_masonry-title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题14 ]</a>
-                <p class="list_masonry-desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
+                <a class="masonry_title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题2-12 ]</a>
+                <p class="masonry_desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
                 <p><small class="text-muted">2021-6-25</small></p>
               </div>
             </div>
           </div>
+          <!-- E col -->
           <!-- S col -->
+          <div class="masonry_item col-sm-6 col-lg-4 col-xl-3 mb-4">
+            <div class="card">
+              <a class="masonry_pic card-img-top" href="#" style="background-image: url('https://placeholder.idcd.com/?w=400&h=300&text=400x300&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1');">
+              </a>
+              <div class="card-body">
+                <a class="masonry_title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题2-13 ]</a>
+                <p class="masonry_desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
+                <p><small class="text-muted">2021-6-25</small></p>
+              </div>
+            </div>
+          </div>
+          <!-- E col -->
+          <!-- S col -->
+          <div class="masonry_item col-sm-6 col-lg-4 col-xl-3 mb-4">
+            <div class="card">
+              <a class="masonry_pic card-img-top" href="#" style="background-image: url('https://placeholder.idcd.com/?w=400&h=300&text=400x300&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1');">
+              </a>
+              <div class="card-body">
+                <a class="masonry_title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题2-14 ]</a>
+                <p class="masonry_desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
+                <p><small class="text-muted">2021-6-25</small></p>
+              </div>
+            </div>
+          </div>
+          <!-- E col -->
+          <!-- S col -->
+          <div class="masonry_item col-sm-6 col-lg-4 col-xl-3 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <a class="masonry_title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题2-15 ]</a>
+                <p class="masonry_desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
+                <p><small class="text-muted">2021-6-25</small></p>
+              </div>
+            </div>
+          </div>
+          <!-- E col -->
+          <!-- S col -->
+          <div class="masonry_item col-sm-6 col-lg-4 col-xl-3 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <a class="masonry_title card-title fs-5 text-muted" href="#">[ 此处为文章标题此处为文章标题2-16 ]</a>
+                <p class="masonry_desc card-text">[ 此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介此处为文章内容简介... ]</p>
+                <p><small class="text-muted">2021-6-25</small></p>
+              </div>
+            </div>
+          </div>
+          <!-- E col -->
         </div>
         <!-- E row -->
+        <!-- S 瀑布流状态 -->
+        <div class="status">
+          <div class="masonry_loader"></div>
+          <!--<div class="masonry_trigger">Load more</div>-->
+          <div class="masonry_no-more">没有更多数据</div>
+        </div>
+        <!-- E 瀑布流状态 -->
+        <!-- S 分页换页按钮 -->
+        <ul class="masonry_pager">
+          <li>共23条</li>
+          <li class="active">
+            <a>1</a>
+          </li>
+          <li>
+            <a data-ci-pagination-page="2" href="#">2</a>
+          </li>
+          <li>
+            <a class="masonry_next" data-ci-pagination-page="2" href="list-data2.html">下一页</a>
+          </li>
+          <li>
+            <a data-ci-pagination-page="6" href="#">最后一页</a>
+          </li>
+        </ul>
+        <!-- E 分页换页按钮 -->
       </article>
       <!-- E 正文部分 -->
     </section>
@@ -361,11 +405,11 @@
           <!-- S row -->
           <div class="row row-cols-2" id="footerEwm">
             <div class="col text-white text-center">
-              <img class="img-fluid" src="https://placeholder.idcd.com/?w=200&h=200&text=200x200&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=30&fontfamily=1" />
+              <img alt="" class="img-fluid"  src="https://placeholder.idcd.com/?w=200&h=200&text=200x200&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=30&fontfamily=1"/>
               <div class="mt-2" style="font-size: 13px">扫码关注公众号</div>
             </div>
             <div class="col text-white text-center">
-              <img class="img-fluid" src="https://placeholder.idcd.com/?w=200&h=200&text=200x200&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=30&fontfamily=1" />
+              <img alt="" class="img-fluid"  src="https://placeholder.idcd.com/?w=200&h=200&text=200x200&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=30&fontfamily=1"/>
               <div class="mt-2" style="font-size: 13px">扫码访问移动端</div>
             </div>
           </div>
@@ -483,6 +527,9 @@
 <script src="https://cdn.jsdelivr.net/npm/aos@2/dist/aos.min.js"></script>
 <!-- masonry-layout -->
 <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<!-- jquery-ias -->
+<script
+  src="https://cdn.jsdelivr.net/npm/@webcreate/infinite-ajax-scroll@3.0.0-beta.6/dist/infinite-ajax-scroll.min.js"></script>
 <!-- Main js file -->
 <script src="assets/js/starter.js?v=1" type="module"></script>
 <!-- Custom scripts -->

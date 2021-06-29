@@ -13,5 +13,7 @@
     <orderEntry type="library" name="masonry-layout" level="application" />
     <orderEntry type="library" name="lightgallery" level="application" />
     <orderEntry type="library" name="swiper" level="application" />
+    <orderEntry type="library" name="jquery-ias" level="application" />
+    <orderEntry type="library" name="@webcreate/infinite-ajax-scroll" level="application" />
   </component>
 </module>
