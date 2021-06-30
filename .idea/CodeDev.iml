@@ -15,5 +15,13 @@
     <orderEntry type="library" name="swiper" level="application" />
     <orderEntry type="library" name="jquery-ias" level="application" />
     <orderEntry type="library" name="@webcreate/infinite-ajax-scroll" level="application" />
+    <orderEntry type="library" name="@fortawesome/fontawesome-free" level="application" />
+    <orderEntry type="library" name="skitter-slider" level="application" />
+    <orderEntry type="library" name="jquery" level="application" />
+    <orderEntry type="library" name="jquery.easing" level="application" />
+    <orderEntry type="library" name="aos" level="application" />
+    <orderEntry type="library" name="bootstrap" level="application" />
+    <orderEntry type="library" name="masonry-layout" level="application" />
+    <orderEntry type="library" name="@webcreate/infinite-ajax-scroll" level="application" />
   </component>
 </module>
