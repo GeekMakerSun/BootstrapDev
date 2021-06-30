@@ -1,3 +1,4 @@
+@charset "utf-8";
 // // Option 1
 // //
 // // Import all of Bootstrap's CSS
@@ -45,6 +46,7 @@ $navbar-nav-link-padding-x: 1.5rem;
   }
 }
 
+
 body {
   position: relative;
   overflow-x: hidden;
@@ -54,6 +56,7 @@ p {
   font-size: 1rem;
   letter-spacing: 0.03rem;
 }
+
 
 // header部分
 header {
@@ -101,7 +104,6 @@ footer {
     background-color: rgba(0, 0, 0, 0.5);
   }
 }
-
 // 导航部分
 .navbar-nav {
 
@@ -116,6 +118,8 @@ footer {
     }
   }
 }
+
+
 
 @import '../src/scss/main-slide.scss';
 @import '../src/scss/home.scss';
