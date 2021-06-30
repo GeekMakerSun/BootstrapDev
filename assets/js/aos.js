@@ -3,4 +3,3 @@ AOS.init({
     once: true,
     mirror: true,
 });
-

@@ -37,7 +37,6 @@ let ias = new InfiniteAjaxScroll('.masonry_article', {
       element.style.opacity = '0'; // default behaviour
     }
   },
-
   // trigger: {
   //   element: '.masonry_trigger',
   //   when: (pageIndex) => pageIndex >= 0,
@@ -56,47 +55,3 @@ let ias = new InfiniteAjaxScroll('.masonry_article', {
 // ias.on('page', (event) => {
 //   $grid.masonry('layout');
 // });
-
-var $grid = $('.masonry_article').masonry({
-  itemSelector: '.masonry_item',
-  percentPosition: true,
-});
-
-
-$(document).keyup(function(event){
-  if(event.keyCode ==13){
-    console.log("按键 回车")
-    var $grid = $('.masonry_article').masonry({
-      itemSelector: '.masonry_item',
-      percentPosition: true,
-    });
-    $grid.masonry('layout');
-  }
-});
-$(document).keyup(function(event){
-  if(event.keyCode ==37){
-    console.log("按键 左")
-    $grid.masonry('destroy');
-  }
-});
-$(document).keyup(function(event){
-  if(event.keyCode ==39){
-    console.log("按键 右")
-  }
-});
-
-$grid.one( 'layoutComplete', function() {
-  console.log('layout done, just this one time');
-});
-function t(){
-  var $grid = $('.masonry_article').masonry({
-    itemSelector: '.masonry_item',
-    percentPosition: true,
-  });
-  $grid.masonry('layout');
-}
-function v(){
-  $grid.masonry('destroy');
-}
-setTimeout(v, 2000)
-setTimeout(t, 3000)

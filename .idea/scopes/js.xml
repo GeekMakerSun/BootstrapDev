@@ -1,3 +1,3 @@
 <component name="DependencyValidationManager">
-  <scope name="监控js" pattern="file:assets/js/main.js" />
+  <scope name="监控js" pattern="file[BootstrapDev]:assets/js/*" />
 </component>
