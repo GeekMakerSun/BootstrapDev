@@ -1,0 +1,79 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"last_opened_file_path\" value=\"D:/CodeDev/BootstrapDev/.idea/deployment.xml\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"watcher.settings\" />\n  </component>\n  <component name=\"RunManager\">\n    <configuration default=\"true\" type=\"NodeJSConfigurationType\">\n      <EXTENSION ID=\"com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension\">\n        <profiling log-folder=\"C:\\Program Files\\JetBrains\\PhpStorm 212.4416.15\\jbr\\bin\\.\" />\n      </EXTENSION>\n      <method v=\"2\" />\n    </configuration>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision efd1d1a7535e9c1975077bf92e95a23b068e6310)
++++ b/.idea/workspace.xml	(date 1625017227186)
+@@ -1,19 +1,32 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectViewState">
+-    <option name="hideEmptyMiddlePackages" value="true" />
+-    <option name="showLibraryContents" value="true" />
++  <component name="ChangeListManager">
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="ComposerSettings">
++    <execution />
+   </component>
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="PropertiesComponent">
+-    <property name="last_opened_file_path" value="D:/CodeDev/BootstrapDev/.idea/deployment.xml" />
+-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
++    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
++    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+   </component>
+-  <component name="RunManager">
+-    <configuration default="true" type="NodeJSConfigurationType">
+-      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
+-        <profiling log-folder="C:\Program Files\JetBrains\PhpStorm 212.4416.15\jbr\bin\." />
+-      </EXTENSION>
+-      <method v="2" />
+-    </configuration>
++  <component name="TaskManager">
++    <servers />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++    <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/inspectionProfiles/Project_Default.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/Project_Default.xml b/.idea/inspectionProfiles/Project_Default.xml
+deleted file mode 100644
+--- a/.idea/inspectionProfiles/Project_Default.xml	(revision efd1d1a7535e9c1975077bf92e95a23b068e6310)
++++ /dev/null	(revision efd1d1a7535e9c1975077bf92e95a23b068e6310)
+@@ -1,12 +0,0 @@
+-<component name="InspectionProjectProfileManager">
+-  <profile version="1.0">
+-    <option name="myName" value="Project Default" />
+-    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+-      <option name="processCode" value="true" />
+-      <option name="processLiterals" value="true" />
+-      <option name="processComments" value="true" />
+-    </inspection_tool>
+-    <inspection_tool class="Stylelint" enabled="true" level="ERROR" enabled_by_default="true" />
+-    <inspection_tool class="TsLint" enabled="true" level="WARNING" enabled_by_default="true" />
+-  </profile>
+-</component>
+\ No newline at end of file
