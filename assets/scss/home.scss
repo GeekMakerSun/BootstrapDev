@@ -1,0 +1,53 @@
+@import 'variables';
+
+/**********
+** 首页
+***********/
+.home {
+
+  // 通栏导航1
+  .home_tbanner1 {
+    .container {
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
+  }
+
+  // 关于我们
+  .home_about {
+    margin-top: -3rem;
+
+    .about_right {
+      margin-top: 5rem;
+
+      .div1 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: $primary;
+      }
+
+      .img {
+        display: inline-block;
+        width: 100%;
+      }
+
+      p {
+        font-size: 1rem;
+        line-height: 2;
+        color: #7a7a7a;
+      }
+    }
+  }
+
+  // 优势
+  .home_advantage {
+    padding-bottom: 11vw;
+    background-position: center -7rem;
+    background-repeat: no-repeat;
+
+    .home_title {
+      padding-top: 2vw;
+      padding-bottom: 3vw;
+    }
+  }
+}
