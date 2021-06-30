@@ -2,10 +2,11 @@
 
 # IntelliJ project files
 .idea
-!.idea/watcherTasks.xml
 *.iml
 out
 gen
+
+!watcherTasks.xml
 
 ### Node template
 # Logs
