@@ -121,15 +121,15 @@ footer {
 
 
 
-@import '../src/scss/main-slide.scss';
-@import '../src/scss/home.scss';
-@import '../src/scss/home.scss';
-@import '../src/scss/show-product.scss';
-@import '../src/scss/list.scss';
-@import '../src/scss/show.scss';
+@import 'src/scss/main-slide';
+@import 'src/scss/home';
+@import 'src/scss/home';
+@import 'src/scss/show-product';
+@import 'src/scss/list';
+@import 'src/scss/show';
 
-@import '../src/scss/customer-service.scss';
-@import '../src/scss/accordion.scss';
-@import '../src/scss/full-screen.scss';
-@import '../src/scss/img-enlarge.scss';
-@import '../src/scss/masonry.scss';
+@import 'src/scss/customer-service';
+@import 'src/scss/accordion';
+@import 'src/scss/full-screen';
+@import 'src/scss/img-enlarge';
+@import 'src/scss/masonry';
