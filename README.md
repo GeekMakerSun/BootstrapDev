@@ -23,7 +23,7 @@ Setup as a starter template, you can easily generate a new GitHub repository. Fr
 - Includes [Bootstrap Icons](https://icons.getbootstrap.com) (v1.4.0), which includes over 1,200 icons available as SVGs and web fonts.
 - npm scripts (see `package.json`) for compiling and autoprefixing Sass, watching for changes, and starting a basic local server.
 - Example stylesheet (`scss/starter.scss`) highlighting two ways to include and customize Bootstrap.
-- Example JavaScript file (`assets/js/starter.js`) showing how to import all of Bootstrap, or just the parts you need.
+- Example JavaScript file (`dist/js/main.min.js`) showing how to import all of Bootstrap, or just the parts you need.
 
 ## Usage
 
@@ -93,12 +93,12 @@ You can add more options here, or import the entire `bootstrap-bundle.min.js` fi
 
 [PurgeCSS](https://purgecss.com/) is a [PostCSS](https://postcss.org) plugin that removes unused CSS based on your site's HTML. It finds rulesets that are unused by your HTML and removes them, ensuring only what's needed is sent to your site's visitors while improving file size and performance.
 
-We've included a single npm script that runs PurgeCSS against our single `index.html` file to remove unused styles from `assets/css/starter.css`.
+We've included a single npm script that runs PurgeCSS against our single `index.html` file to remove unused styles from `dist/css/main.min.css`.
 
 To purge your CSS, run `npm run css-purge` from the command line. This executes the following:
 
 ```shell
-npm purgecss --css assets/css/starter.css --content index.html --output assets/css/
+npm purgecss --css dist/css/main.min.css --content index.html --output assets/css/
 ```
 
 PurgeCSS is a PostCSS plugin and [can be configured](https://purgecss.com/configuration.html) to your exact needs with a little extra effort, including additional [command line options](https://purgecss.com/CLI.html).
