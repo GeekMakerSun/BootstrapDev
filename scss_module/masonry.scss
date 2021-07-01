@@ -1,0 +1,83 @@
+.masonry {
+
+  .masonry_loader {
+    animation: flipAnimation 1s infinite;
+    background: transparent url("../svg/loader.svg") no-repeat center center;
+    background-size: 40px 19px;
+    height: 40px;
+    margin-top: 0;
+    opacity: 0;
+    text-align: center;
+    transition: opacity 300ms;
+  }
+
+  .masonry_no-more {
+    border: 1px solid #eeeeee;
+    border-radius: 4px;
+    color: #999999;
+
+    display: inline-block;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 14px;
+
+    font-weight: normal;
+    height: 32px;
+    line-height: 30px;
+    opacity: 0;
+    padding: 0 16px;
+
+    text-decoration: none;
+
+    transition: opacity 400ms;
+    vertical-align: middle;
+  }
+
+  /* @see https://medium.com/designer-recipes/understanding-card-flip-animation-using-css-391c40ed3136 */
+  @keyframes flipAnimation {
+    0% {
+      -ms-transform: rotateY(-180deg);
+      /* IE 9 */
+      -webkit-transform: rotateY(-180deg);
+      /* Safari Chrome */
+      transform: rotateY(-180deg);
+    }
+
+    50% {
+      -ms-transform: rotateY(0deg);
+      /* IE 9 */
+      -webkit-transform: rotateY(0deg);
+      /* Safari Chrome */
+      transform: rotateY(0deg);
+    }
+
+    100% {
+      -ms-transform: rotateY(-180deg);
+      /* IE 9 */
+      -webkit-transform: rotateY(-180deg);
+      /* Safari Chrome */
+      transform: rotateY(-180deg);
+    }
+  }
+
+  .masonry_pic {
+    background-color: #f8f9fa;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 0;
+    padding-bottom: 75%;
+    width: 100%;
+  }
+
+  .masonry_title {
+    display: inline-block;
+    letter-spacing: 0.03rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .masonry_desc {
+    letter-spacing: 0.07rem;
+    line-height: 1.7;
+    margin-bottom: 0.5rem;
+  }
+}

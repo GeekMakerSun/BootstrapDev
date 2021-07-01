@@ -16,7 +16,7 @@
   <!-- aos -->
   <link href="https://cdn.jsdelivr.net/npm/aos@2/dist/aos.min.css" rel="stylesheet"/>
   <!-- Main css file -->
-  <link href="./assets/css/main.min.css?v=1" rel="stylesheet"/>
+  <link href="./assets/css/main.css?v=1" rel="stylesheet"/>
   <!-- Custom styles -->
 
 </head>
@@ -354,18 +354,7 @@
 <!-- Custom scripts -->
 <script src="assets/js/fullScreen.min.js?v=1" type="module"></script>
 <script src="assets/js/sidebar.min.js?v=1" type="module"></script>
-<!-- Custom scripts -->
-<script type="text/javascript">
-  // var Title = $(".articleAdd .card-title").text()
-  const pagesTitle = '修改为单页标题';
-  // 重构img标签
-  $('.articleAdd img').replaceWith(function () {
-    const imgSrc = $(this).attr('src');
-    return (
-        '<img alt="" src=' + imgSrc + " class='img-fluid img-thumbnail shadow-2-strong d-block mx-auto my-1' alt=" + pagesTitle + ' title=' + Title + ' />'
-    );
-  })
-</script>
+<script src="assets/js/article.min.js?v=1" type="module"></script>
 </body>
 
 </html>
