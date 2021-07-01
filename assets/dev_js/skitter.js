@@ -21,4 +21,3 @@ $('.mainSlide.skitter').skitter({
   //   },
   // },
 });
-

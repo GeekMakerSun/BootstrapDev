@@ -10,4 +10,3 @@ $('.sidebarButton').click(function () {
     localStorage.removeItem('sidebarStatus');
   }
 });
-
