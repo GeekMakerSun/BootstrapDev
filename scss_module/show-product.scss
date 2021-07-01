@@ -1,0 +1,61 @@
+@import "variables";
+
+.show-product {
+  .show-product_title {
+    position: relative;
+
+    & > .span1 {
+      letter-spacing: 0.3rem;
+      position: relative;
+      z-index: 999;
+
+      &::before,
+      &::after {
+        background-image: url("../img/gradient_line.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        content: "";
+        height: 100%;
+        position: absolute;
+        top: 0;
+        width: 0.5rem;
+      }
+
+      &::before {
+        left: -1.5rem;
+      }
+
+      &::after {
+        right: -1.5rem;
+        transform: rotate(180deg);
+      }
+    }
+
+    & > .span2 {
+      bottom: -1rem;
+      color: #f2f2f2;
+      font-size: 2rem;
+      font-weight: bold;
+      left: 50%;
+      position: absolute;
+      transform: translateX(-50%);
+      width: 100%;
+    }
+  }
+
+  .show-product_subtitle {
+    & > i {
+      background-color: #14b5f0;
+      display: inline-block;
+      height: 1.2rem;
+      margin-right: 0.4rem;
+      width: 0.2rem;
+    }
+
+    & > span {
+      font-size: 0.8rem;
+      margin-left: 0.2rem;
+      padding-top: 0.5rem;
+    }
+  }
+}
