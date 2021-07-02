@@ -75,8 +75,12 @@
       }
     }
   }
-
-  table, tr, th, td {
+  table{
+    text-align: center;
+    margin: auto;
     border: 1px solid #ccc !important;
+    tr, th, td {
+      border: 1px solid #ccc !important;
+    }
   }
 }
