@@ -1,3 +1,0 @@
-<component name="DependencyValidationManager">
-  <scope name="监控scss" pattern="file[BootstrapDev]:assets/scss/*" />
-</component>
