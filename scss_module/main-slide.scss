@@ -1,10 +1,10 @@
-@import 'variables';
+@import "variables";
 
 // 轮播图
 .mainSlide {
-  position: relative;
-  max-width: initial;
   margin-bottom: 4rem;
+  max-width: initial;
+  position: relative;
   z-index: 1;
 
   .info_slide_dots {
@@ -12,38 +12,38 @@
   }
 
   .progressbar {
-    top: 0;
-    left: 0;
-    width: 100%;
     background-color: $secondary;
+    left: 0;
+    top: 0;
+    width: 100%;
   }
 
   // 轮播图 置顶文字层
   .mainSlide-fixed {
+    left: 5%;
     position: absolute;
     top: 30%;
-    left: 5%;
     width: 100%;
     z-index: 1;
   }
 
   // 轮播图 页面导航
   .mainSlide_nav {
-    position: absolute;
     bottom: -2rem;
     left: 0;
+    position: absolute;
     width: 100%;
     z-index: 999;
 
     .mainSlide_nav-link {
-      display: inline-block;
-      padding: 0 0.3rem;
-      line-height: 4rem;
-      height: 4rem;
+      background-image: url("../img/gradient_line.png");
       background-position: bottom;
-      background-size: 0 0.2rem;
       background-repeat: no-repeat;
-      background-image: url('../img/gradient_line.png');
+      background-size: 0 0.2rem;
+      display: inline-block;
+      height: 4rem;
+      line-height: 4rem;
+      padding: 0 0.3rem;
       transition-duration: 0.2s;
 
       &:hover,

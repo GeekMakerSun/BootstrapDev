@@ -6,8 +6,8 @@
   "main": "index.js",
   "scripts": {
     "build": "npm run css",
-    "css-compile": "node-sass --include-path node_modules --output-style compressed --source-map true --source-map-contents true --precision 6 scss -o assets/css/",
-    "css-lint": "stylelint scss/",
+    "css-compile": "node-sass --include-path node_modules --output-style compressed --source-map true --source-map-contents true --precision 6 assets/scss -o assets/css/",
+    "css-lint": "stylelint assets/scss/",
     "css-prefix": "postcss --replace assets/css/main.css --use autoprefixer --map",
     "css-purge": "purgecss --keyframes --css assets/css/main.css --content index.html \"node_modules/bootstrap/js/dist/{util,modal}.js\" --output assets/css/",
     "css": "npm-run-all css-compile css-prefix",
