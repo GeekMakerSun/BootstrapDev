@@ -1,0 +1,17 @@
+// 为所有图标设置间距[1]
+$icons-spacing: 10px;
+// 设置精灵布局[2]
+$icon-layout: smart;
+// 为所有图标设置宽高[3]
+$icons-sprite-dimensions: true;
+// 导入 Compass Sprites 模块[4]
+@import 'compass/utilities/sprites';
+// 导入需要生成精灵的图片[5]
+@import 'icons/*.png';
+// 生成 Sprite 需要用到的 CSS 规则[6]
+@include all-icons-sprites;
+
+// 设置图标布局类型
+.icons {
+  display:inline-block;
+}

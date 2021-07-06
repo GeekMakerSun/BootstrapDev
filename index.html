@@ -22,6 +22,7 @@
   <link href="https://cdn.jsdelivr.net/npm/swiper@6/swiper-bundle.min.css" rel="stylesheet">
   <!-- Main css file -->
   <link href="./assets/css/main.css?v=1" rel="stylesheet"/>
+  <link href="./assets/css/sprites.css?v=1" rel="stylesheet"/>
   <!-- Custom styles -->
 
 </head>
@@ -29,21 +30,33 @@
 <body class="home">
 <!-- S header -->
 <header class="">
-  <div class="header_top"></div>
+  <div class="header_top py-1 border-bottom border-2">
+    <div class="container d-flex justify-content-between">
+      <div class="d-flex align-items-center">
+        <i class="icons icons-sprites_home me-1"></i> <span>欢迎访问成都灵控科技有限公司！</span>
+      </div>
+      <div class="d-flex align-items-center">
+        <span class="text-nowrap">搜索：</span>
+        <div class="input-group">
+          <input aria-describedby="button-addon2" aria-label="Recipient's username" class="py-1 px-2 form-control" placeholder="输入关键字" type="text">
+          <div class="header_top-search d-flex align-items-center" id="button-addon2">
+            <i class="icons icons-sprites_search"></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="container">
     <div class="d-flex align-items-center py-3">
       <a class="d-flex align-items-center me-auto" href="/">
-        <img alt="" class="img-fluid me-2" src="./assets/img/logo.png" style="width: 83px;"/>
-        <div class="">
-          <div class="text-dark fs-3 fw-bold">无锡市晋峰新材料科技有限公司</div>
-          <div class="text-black-50 font-monospace fw-bold text-uppercase">
-            Wuxi Jinfeng New Material Technology Co., Ltd.
-          </div>
+        <img alt="" class="img-fluid col-4" src="./assets/img/logo.png"/>
+        <div class="ms-3 text-muted">
+          <div class="fs-6">自动化控制系统解决方案</div>
+          <div class="fs-5">为用户提供<span class="text-primary">高效</span>、<span class="text-primary">便捷</span>的控制系统</div>
         </div>
       </a>
       <div class="row d-flex align-items-center">
         <div class="col-2">
-          <i class="fs-3 fas fa-phone-alt text-secondary"></i>
+          <i class="icons icons-sprites_tel"></i>
         </div>
         <div class="col-10">
           <div>全国免费服务热线：</div>
@@ -97,18 +110,14 @@
   <div class="mainSlide skitter skitter-large">
     <ul>
       <li>
-        <a href="#">
-          <img alt="" src="./assets/img/banner1.jpg"/>
-        </a>
+        <a href="#"> <img alt="" src="./assets/img/banner1.jpg"/> </a>
         <!-- <div class="label_text">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#see-more"
               class="btn btn-small btn-yellow">See more</a></p>
         </div> -->
       </li>
       <li>
-        <a href="#">
-          <img alt="" src="./assets/img/banner2.jpg"/>
-        </a>
+        <a href="#"> <img alt="" src="./assets/img/banner2.jpg"/> </a>
         <!-- <div class="label_text">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#see-more"
               class="btn btn-small btn-yellow">See more</a></p>
@@ -298,172 +307,6 @@
     <!-- E container -->
   </section>
   <!-- E 首页 产品图片组 -->
-  <!-- S 通栏导航1 -->
-  <section class="home_tbanner1 mt-7 bg-image" style="background-image: url('./assets/img/home_tbanner1-bg.jpg');">
-    <div class="container text-center">
-      <div class="fs-1 text-info">为客户提供一体式全方位解决方案及顾问式服务</div>
-      <div class="fs-5 mt-4 text-warning">
-        印纸油墨 / 印布油墨 / 玻璃油墨 / 胶印油墨 / 塑料油墨 / 印铁油墨 / 线路板油墨
-      </div>
-      <div class="fs-5 mt-4 text-light">全国热线：400-208-27XX</div>
-      <a class="mt-4 btn btn-outline-light btn-rounded fs-6" href="#">联系我们</a>
-    </div>
-  </section>
-  <!-- E 通栏导航1 -->
-  <!-- S 关于我们 -->
-  <section class="home_about">
-    <div class="container">
-      <div class="row gx-5">
-        <div class="col-md-4">
-          <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="">
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="3000">
-                <img alt="..." class="d-block w-100" src="./assets/img/home_about-1.jpg"/>
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img alt="..." class="d-block w-100" src="./assets/img/home_about-2.jpg"/>
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img alt="..." class="d-block w-100" src="./assets/img/home_about-3.jpg"/>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-8">
-          <div class="about_right">
-            <div class="div1 mb-4">某某油墨涂料有限公司</div>
-            <img alt="渐变色线条" class="img1 mb-4" src="./assets/img/gradient_line.png"/>
-            <p>
-              我们服务于涂料油墨、胶粘剂、橡胶、工业清洗、日化洗护、污水处理等行业的化学原料销售及研发。对于化学原料销售，公司一直与国内外化工厂家紧密合作，通过互联网新时代销售以高效、快捷、质量保证、价格透明方式服务于各行业。 </p>
-            <p>
-              对于研发新技术、新产品，公司与多家高校、行业内专家紧密合作，不断追求产品技术的创新。实现技术共享，产品资源、市场资源以及资金资源的共享。 </p>
-            <div class="mt-4">
-              <a class="btn btn-primary fs-6 me-4" href="#">了解更多</a>
-              <a class="btn btn-primary fs-6" href="#">联系我们</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- E 关于我们 -->
-  <!-- S 优势 -->
-  <section class="home_advantage my-5" style="background-image: url('./assets/img/home_advantage-bg.png');">
-    <!-- S container -->
-    <div class="container">
-      <div class="home_title text-center">
-        <div class="fs-3">我们的优势</div>
-        <img alt="渐变色线条" class="img1" src="./assets/img/gradient_line.png"/>
-      </div>
-      <div class="row justify-content-between">
-        <div class="col-md-4 text-end">
-          <div class="fs-5 text-primary fw-bold">品类齐全</div>
-          <p class="text-muted mt-1 mb-5">
-            解决油墨应用工艺等特殊要求，所有产品均来自国内外大品牌，产品种类齐全到针对每工艺 </p>
-          <div class="fs-5 text-primary fw-bold pt-5">品类齐全</div>
-          <p class="text-muted mt-1">
-            解决油墨应用工艺等特殊要求，所有产品均来自国内外大品牌，产品种类齐全到针对每工艺 </p>
-        </div>
-        <div class="col-md-4">
-          <div class="fs-5 text-primary fw-bold">品类齐全</div>
-          <p class="text-muted mt-1 mb-5">
-            解决油墨应用工艺等特殊要求，所有产品均来自国内外大品牌，产品种类齐全到针对每工艺 </p>
-          <div class="fs-5 text-primary fw-bold pt-5">品类齐全</div>
-          <p class="text-muted mt-1">
-            解决油墨应用工艺等特殊要求，所有产品均来自国内外大品牌，产品种类齐全到针对每工艺 </p>
-        </div>
-      </div>
-    </div>
-    <!-- E container -->
-  </section>
-  <!-- E 优势 -->
-  <!-- S 新闻资讯 -->
-  <section class="my-5">
-    <!-- S container -->
-    <div class="container">
-      <div class="home_title text-center mb-4">
-        <div class="fs-3">新闻资讯</div>
-        <img alt="渐变色线条" class="img1" src="./assets/img/gradient_line.png"/>
-      </div>
-      <!-- S row -->
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
-        <!-- S col -->
-        <div class="col">
-          <!-- S card -->
-          <div class="card">
-            <a class="img_enlarge" href="#">
-              <img alt="" class="card-img-top" src="https://placeholder.idcd.com/?w=400&h=300&text=400x300&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1"/>
-            </a>
-            <div class="card-body">
-              <a class="card-text text-center" href="#">[新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题]</a>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the card's content. </p>
-            </div>
-            <div class="card-footer">2天前</div>
-          </div>
-          <!-- S card -->
-        </div>
-        <!-- E col -->
-        <!-- S col -->
-        <div class="col">
-          <!-- S card -->
-          <div class="card">
-            <a class="img_enlarge" href="#">
-              <img alt="" class="card-img-top" src="https://placeholder.idcd.com/?w=400&h=300&text=400x300&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1"/>
-            </a>
-            <div class="card-body">
-              <a class="card-text text-center" href="#">[新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题]</a>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the card's content. </p>
-            </div>
-            <div class="card-footer">2天前</div>
-          </div>
-          <!-- S card -->
-        </div>
-        <!-- E col -->
-        <!-- S col -->
-        <div class="col">
-          <!-- S card -->
-          <div class="card">
-            <a class="img_enlarge" href="#">
-              <img alt="" class="card-img-top" src="https://placeholder.idcd.com/?w=400&h=300&text=400x300&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1"/>
-            </a>
-            <div class="card-body">
-              <a class="card-text text-center" href="#">[新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题]</a>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the card's content. </p>
-            </div>
-            <div class="card-footer">2天前</div>
-          </div>
-          <!-- S card -->
-        </div>
-        <!-- E col -->
-        <!-- S col -->
-        <div class="col">
-          <!-- S card -->
-          <div class="card">
-            <a class="img_enlarge" href="#">
-              <img alt="" class="card-img-top" src="https://placeholder.idcd.com/?w=400&h=300&text=400x300&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1"/>
-            </a>
-            <div class="card-body">
-              <a class="card-text text-center" href="#">[新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题]</a>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the card's content. </p>
-            </div>
-            <div class="card-footer">2天前</div>
-          </div>
-          <!-- S card -->
-        </div>
-        <!-- E col -->
-      </div>
-      <!-- E row -->
-      <div class="mt-5 text-center">
-        <a class="btn btn-primary fs-6 me-4" href="#">了解更多</a>
-      </div>
-    </div>
-    <!-- E container -->
-  </section>
-  <!-- E 新闻资讯 -->
 </main>
 <!-- S footer -->
 <footer class="py-5 bg-primary text-white py-5" style="background-image: url('./assets/img/map.png');">
@@ -579,18 +422,9 @@
   <div class="customer-service-2" style="background-image: url('./assets/img/customer-service-2.png');">
     <span class="title">在线客服</span>
     <div class="con d-flex flex-column">
-      <a href="#">
-        <i class="fab fa-qq"></i> <span>QQ客服</span>
-      </a>
-      <a href="#">
-        <i class="fab fa-weixin"></i> <span>微信客服</span>
-      </a>
-      <a href="#">
-        <i class="fas fa-comment-dots"></i> <span>在线咨询</span>
-      </a>
-      <a href="#">
-        <i class="fas fa-envelope"></i> <span>邮件沟通</span>
-      </a>
+      <a href="#"> <i class="fab fa-qq"></i> <span>QQ客服</span> </a> <a href="#"> <i class="fab fa-weixin"></i>
+      <span>微信客服</span> </a> <a href="#"> <i class="fas fa-comment-dots"></i> <span>在线咨询</span> </a> <a href="#">
+      <i class="fas fa-envelope"></i> <span>邮件沟通</span> </a>
     </div>
   </div>
 </aside>
