@@ -4,50 +4,104 @@
 ** 首页
 ***********/
 .home {
+  .mainSlide {
+    position: relative;
+    width: 100%;
+    height: 100%;
 
-  // 通栏导航1
-  .home_tbanner1 {
-    .container {
-      padding-bottom: 5rem;
-      padding-top: 5rem;
-    }
-  }
+    .swiper-slide {
+      display: -webkit-flex;
+      display: flex;
+      -webkit-align-items: center;
+      align-items: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      text-align: center;
+      background-position: center;
+      background-size: cover;
 
-  // 关于我们
-  .home_about {
-    margin-top: -3rem;
-
-    .about_right {
-      margin-top: 5rem;
-
-      .div1 {
-        color: $primary;
-        font-size: 1.5rem;
-        font-weight: 600;
-      }
-
-      .img {
-        display: inline-block;
+      img {
+        display: block;
         width: 100%;
-      }
-
-      p {
-        color: #7a7a7a;
-        font-size: 1rem;
-        line-height: 2;
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
       }
     }
-  }
 
-  // 优势
-  .home_advantage {
-    background-position: center -7rem;
-    background-repeat: no-repeat;
-    padding-bottom: 11vw;
+    .mainSlide_swiper {
+      .swiper-button-next, .swiper-button-prev {
+        width: 3.5rem;
+        height: 4.5rem;
+        color: $primary;
+        border-radius: 0.5rem;
+        background-color: rgba($secondary, 0.3);
 
-    .home_title {
-      padding-bottom: 3vw;
-      padding-top: 2vw;
+        &:after {
+          font-size: 2.5rem;
+        }
+      }
+
+      .swiper-button-next {
+        right: -5rem;
+        transition-duration: 0.3s;
+        transition-delay: 0.5s;
+      }
+
+      .swiper-button-prev {
+        left: -5rem;
+        transition-duration: 0.3s;
+        transition-delay: 0.5s;
+      }
+
+      &:hover .swiper-button-next {
+        right: 10rem;
+        transition-duration: 0.3s;
+      }
+
+      &:hover .swiper-button-prev {
+        left: 10rem;
+        transition-duration: 0.3s;
+      }
     }
+
+    .mainSlide_thumbs {
+      position: absolute;
+      bottom: 2vw;
+      left: 50%;
+      box-sizing: border-box;
+      width: 30vw;
+      margin-left: -15vw;
+
+      .swiper-slide {
+        width: 25%;
+        height: 100%;
+        opacity: 0.3;
+
+        .slide-pic {
+          margin: 1rem;
+          border: 0.15rem solid #797979;
+          border-radius: 1rem;
+          overflow: hidden;
+          cursor: pointer;
+          transition-duration: 0.3s;
+        }
+
+        &:not(.swiper-slide-thumb-active):hover {
+          opacity: 0.6;
+        }
+      }
+
+      .swiper-slide-thumb-active {
+        opacity: 1;
+
+        .slide-pic {
+          margin: 0;
+          transition-duration: 0.3s;
+        }
+      }
+    }
+
   }
+
 }

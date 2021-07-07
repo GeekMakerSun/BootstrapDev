@@ -10,9 +10,6 @@
   <link href="./assets/img/favicon.ico" rel="icon" type="image/x-icon"/>
   <!-- Font Awesome -->
   <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" rel="stylesheet"/>
-  <!-- skitter-slider -->
-  <link href="https://cdn.jsdelivr.net/npm/skitter-slider@5/dist/skitter.min.css" rel="stylesheet"/>
-  <link href="https://cdn.jsdelivr.net/npm/skitter-slider@5/examples/css/styles.min.css" rel="stylesheet"/>
   <!-- aos -->
   <link href="https://cdn.jsdelivr.net/npm/aos@2/dist/aos.min.css" rel="stylesheet"/>
   <!-- lightgallery -->
@@ -31,14 +28,15 @@
 <!-- S header -->
 <header class="">
   <div class="header_top py-1 border-bottom border-2">
-    <div class="container d-flex justify-content-between">
+    <div class="container d-flex justify-content-between text-muted">
       <div class="d-flex align-items-center">
         <i class="icons icons-sprites_home me-1"></i> <span>欢迎访问成都灵控科技有限公司！</span>
       </div>
       <div class="d-flex align-items-center">
         <span class="text-nowrap">搜索：</span>
         <div class="input-group">
-          <input aria-describedby="button-addon2" aria-label="Recipient's username" class="py-1 px-2 form-control" placeholder="输入关键字" type="text">
+          <input aria-describedby="button-addon2" aria-label="Recipient's username" class="py-1 px-2 form-control"
+                 placeholder="输入关键字" type="text">
           <div class="header_top-search d-flex align-items-center" id="button-addon2">
             <i class="icons icons-sprites_search"></i></div>
         </div>
@@ -54,13 +52,11 @@
           <div class="fs-5">为用户提供<span class="text-primary">高效</span>、<span class="text-primary">便捷</span>的控制系统</div>
         </div>
       </a>
-      <div class="row d-flex align-items-center">
-        <div class="col-2">
-          <i class="icons icons-sprites_tel"></i>
-        </div>
-        <div class="col-10">
-          <div>全国免费服务热线：</div>
-          <div class="h3">400-208-27XX</div>
+      <div class="d-flex">
+        <i class="icons icons-sprites_tel-1"></i>
+        <div class="">
+          <div class="fs-6 mt-3 ms-2 text-muted">全国服务热线</div>
+          <div class="header_tel">028-83657878</div>
         </div>
       </div>
     </div>
@@ -68,7 +64,7 @@
 </header>
 <!-- E header -->
 <!-- S 导航条 -->
-<nav class="navbar navbar-expand navbar-dark bg-primary sticky-top">
+<nav class="navbar navbar-expand sticky-top navbar-light bg-light">
   <div class="container">
     <div class="collapse navbar-collapse" id="navbarsExample07">
       <ul class="navbar-nav me-auto">
@@ -107,80 +103,41 @@
 <!-- E 导航条 -->
 <main>
   <!-- S 轮播图 -->
-  <div class="mainSlide skitter skitter-large">
-    <ul>
-      <li>
-        <a href="#"> <img alt="" src="./assets/img/banner1.jpg"/> </a>
-        <!-- <div class="label_text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#see-more"
-              class="btn btn-small btn-yellow">See more</a></p>
-        </div> -->
-      </li>
-      <li>
-        <a href="#"> <img alt="" src="./assets/img/banner2.jpg"/> </a>
-        <!-- <div class="label_text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#see-more"
-              class="btn btn-small btn-yellow">See more</a></p>
-        </div> -->
-      </li>
-    </ul>
-    <!-- S 轮播图 置顶文字层 -->
-    <div class="mainSlide-fixed">
-      <!-- S container -->
-      <div class="container">
-        <div class="fs-3 fw-bold text-danger" data-aos="fade-left" data-aos-duration="3000">为客户提供一体式</div>
-        <div class="fs-1 fw-bold text-primary" data-aos="fade-right" data-aos-duration="3000">全方位解决方案及顾问式服务</div>
+  <div class="mainSlide">
+    <div class="swiper-container mainSlide_swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img alt="" src="./assets/img/banner.png"/>
+        </div>
+        <div class="swiper-slide">
+          <img alt="" src="./assets/img/banner.png"/>
+        </div>
+        <div class="swiper-slide">
+          <img alt="" src="./assets/img/banner.png"/>
+        </div>
       </div>
-      <!-- E container -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
     </div>
-    <!-- E 轮播图 置顶文字层 -->
-    <!-- S 轮播图 页面导航 -->
-    <div class="mainSlide_nav">
-      <div class="container">
-        <div class="card border bg-light shadow-sm text-center">
-          <!-- S row -->
-          <div class="row">
-            <!-- S col -->
-            <div class="col" data-aos="fade-up">
-              <a class="mainSlide_nav-link active" href="#">塑料油墨</a>
-            </div>
-            <!-- E col -->
-            <!-- S col -->
-            <div class="col" data-aos="fade-up" data-aos-delay="100">
-              <a class="mainSlide_nav-link" href="#">印纸油墨</a>
-            </div>
-            <!-- E col -->
-            <!-- S col -->
-            <div class="col" data-aos="fade-up" data-aos-delay="200">
-              <a class="mainSlide_nav-link" href="#">玻璃油墨</a>
-            </div>
-            <!-- E col -->
-            <!-- S col -->
-            <div class="col" data-aos="fade-up" data-aos-delay="300">
-              <a class="mainSlide_nav-link" href="#">胶印油墨</a>
-            </div>
-            <!-- E col -->
-            <!-- S col -->
-            <div class="col" data-aos="fade-up" data-aos-delay="400">
-              <a class="mainSlide_nav-link" href="#">印铁油墨</a>
-            </div>
-            <!-- E col -->
-            <!-- S col -->
-            <div class="col" data-aos="fade-up" data-aos-delay="500">
-              <a class="mainSlide_nav-link" href="#">印布油墨</a>
-            </div>
-            <!-- E col -->
-            <!-- S col -->
-            <div class="col" data-aos="fade-up" data-aos-delay="600">
-              <a class="mainSlide_nav-link" href="#">线路板油墨</a>
-            </div>
-            <!-- E col -->
+    <div class="swiper-container mainSlide_thumbs" thumbsSlider="">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="slide-pic">
+            <img alt="" src="./assets/img/banner-small.png"/>
           </div>
-          <!-- E row -->
+        </div>
+        <div class="swiper-slide">
+          <div class="slide-pic">
+            <img alt="" src="./assets/img/banner-small.png"/>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slide-pic">
+            <img alt="" src="./assets/img/banner-small.png"/>
+          </div>
         </div>
       </div>
     </div>
-    <!-- E 页面导航 -->
   </div>
   <!-- E 轮播图 -->
   <!-- S 首页 产品图片组 -->
@@ -194,7 +151,8 @@
           <!-- S card -->
           <div class="card">
             <a class="img_enlarge" href="#">
-              <img alt="" class="card-img-top" src="https://placeholder.idcd.com/?w=400&h=400&text=400x400&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1"/>
+              <img alt="" class="card-img-top"
+                   src="https://placeholder.idcd.com/?w=400&h=400&text=400x400&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1"/>
             </a>
             <div class="card-body text-center">
               <a class="card-text" href="#">[XXXXX油墨]</a>
@@ -208,7 +166,8 @@
           <!-- S card -->
           <div class="card">
             <a class="img_enlarge" href="#">
-              <img alt="" class="card-img-top" src="https://placeholder.idcd.com/?w=400&h=400&text=400x400&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1"/>
+              <img alt="" class="card-img-top"
+                   src="https://placeholder.idcd.com/?w=400&h=400&text=400x400&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1"/>
             </a>
             <div class="card-body text-center">
               <a class="card-text" href="#">[XXXXX油墨]</a>
@@ -222,7 +181,8 @@
           <!-- S card -->
           <div class="card">
             <a class="img_enlarge" href="#">
-              <img alt="" class="card-img-top" src="https://placeholder.idcd.com/?w=400&h=400&text=400x400&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1"/>
+              <img alt="" class="card-img-top"
+                   src="https://placeholder.idcd.com/?w=400&h=400&text=400x400&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1"/>
             </a>
             <div class="card-body text-center">
               <a class="card-text" href="#">[XXXXX油墨]</a>
@@ -236,7 +196,8 @@
           <!-- S card -->
           <div class="card">
             <a class="img_enlarge" href="#">
-              <img alt="" class="card-img-top" src="https://placeholder.idcd.com/?w=400&h=400&text=400x400&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1"/>
+              <img alt="" class="card-img-top"
+                   src="https://placeholder.idcd.com/?w=400&h=400&text=400x400&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1"/>
             </a>
             <div class="card-body text-center">
               <a class="card-text" href="#">[XXXXX油墨]</a>
@@ -250,7 +211,8 @@
           <!-- S card -->
           <div class="card">
             <a class="img_enlarge" href="#">
-              <img alt="" class="card-img-top" src="https://placeholder.idcd.com/?w=400&h=400&text=400x400&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1"/>
+              <img alt="" class="card-img-top"
+                   src="https://placeholder.idcd.com/?w=400&h=400&text=400x400&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1"/>
             </a>
             <div class="card-body text-center">
               <a class="card-text" href="#">[XXXXX油墨]</a>
@@ -264,7 +226,8 @@
           <!-- S card -->
           <div class="card">
             <a class="img_enlarge" href="#">
-              <img alt="" class="card-img-top" src="https://placeholder.idcd.com/?w=400&h=400&text=400x400&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1"/>
+              <img alt="" class="card-img-top"
+                   src="https://placeholder.idcd.com/?w=400&h=400&text=400x400&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1"/>
             </a>
             <div class="card-body text-center">
               <a class="card-text" href="#">[XXXXX油墨]</a>
@@ -278,7 +241,8 @@
           <!-- S card -->
           <div class="card">
             <a class="img_enlarge" href="#">
-              <img alt="" class="card-img-top" src="https://placeholder.idcd.com/?w=400&h=400&text=400x400&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1"/>
+              <img alt="" class="card-img-top"
+                   src="https://placeholder.idcd.com/?w=400&h=400&text=400x400&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1"/>
             </a>
             <div class="card-body text-center">
               <a class="card-text" href="#">[XXXXX油墨]</a>
@@ -292,7 +256,8 @@
           <!-- S card -->
           <div class="card">
             <a class="img_enlarge" href="#">
-              <img alt="" class="card-img-top" src="https://placeholder.idcd.com/?w=400&h=400&text=400x400&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1"/>
+              <img alt="" class="card-img-top"
+                   src="https://placeholder.idcd.com/?w=400&h=400&text=400x400&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=20&fontfamily=1"/>
             </a>
             <div class="card-body text-center">
               <a class="card-text" href="#">[XXXXX油墨]</a>
@@ -334,11 +299,13 @@
         <!-- S row -->
         <div class="row row-cols-2" id="footerEwm">
           <div class="col text-white text-center">
-            <img alt="" class="img-fluid" src="https://placeholder.idcd.com/?w=200&h=200&text=200x200&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=30&fontfamily=1"/>
+            <img alt="" class="img-fluid"
+                 src="https://placeholder.idcd.com/?w=200&h=200&text=200x200&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=30&fontfamily=1"/>
             <div class="mt-2" style="font-size: 13px;">扫码关注公众号</div>
           </div>
           <div class="col text-white text-center">
-            <img alt="" class="img-fluid" src="https://placeholder.idcd.com/?w=200&h=200&text=200x200&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=30&fontfamily=1"/>
+            <img alt="" class="img-fluid"
+                 src="https://placeholder.idcd.com/?w=200&h=200&text=200x200&bgcolor=%23CDCDCD&fontcolor=%23828282&fontsize=30&fontfamily=1"/>
             <div class="mt-2" style="font-size: 13px;">扫码访问移动端</div>
           </div>
         </div>
@@ -415,19 +382,19 @@
 </footer>
 <!-- E footer -->
 <!-- S customer-service -->
-<aside class="customer-service">
-  <div class="customer-service-1" style="background-image: url('./assets/img/customer-service-1.png');">
-    <span>客服</span>
-  </div>
-  <div class="customer-service-2" style="background-image: url('./assets/img/customer-service-2.png');">
-    <span class="title">在线客服</span>
-    <div class="con d-flex flex-column">
-      <a href="#"> <i class="fab fa-qq"></i> <span>QQ客服</span> </a> <a href="#"> <i class="fab fa-weixin"></i>
-      <span>微信客服</span> </a> <a href="#"> <i class="fas fa-comment-dots"></i> <span>在线咨询</span> </a> <a href="#">
-      <i class="fas fa-envelope"></i> <span>邮件沟通</span> </a>
-    </div>
-  </div>
-</aside>
+<!--<aside class="customer-service">-->
+<!--  <div class="customer-service-1" style="background-image: url('./assets/img/customer-service-1.png');">-->
+<!--    <span>客服</span>-->
+<!--  </div>-->
+<!--  <div class="customer-service-2" style="background-image: url('./assets/img/customer-service-2.png');">-->
+<!--    <span class="title">在线客服</span>-->
+<!--    <div class="con d-flex flex-column">-->
+<!--      <a href="#"> <i class="fab fa-qq"></i> <span>QQ客服</span> </a> <a href="#"> <i class="fab fa-weixin"></i>-->
+<!--      <span>微信客服</span> </a> <a href="#"> <i class="fas fa-comment-dots"></i> <span>在线咨询</span> </a> <a href="#">-->
+<!--      <i class="fas fa-envelope"></i> <span>邮件沟通</span> </a>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</aside>-->
 <!-- E customer-service -->
 <!-- jquery -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.js"></script>
@@ -436,12 +403,15 @@
 <!-- bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.js"></script>
 <script src="assets/js/bootstrap-components.min.js?v=1" type="module"></script>
-<!-- skitter -->
-<script src="https://cdn.jsdelivr.net/npm/skitter-slider@5/dist/jquery.skitter.js"></script>
-<script src="assets/js/skitter.min.js?v=1" type="module"></script>
+<!--swiper-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@6/swiper-bundle.min.js"></script>
+<script src="assets/js/swiper.min.js?v=1" type="module"></script>
 <!-- aos -->
 <script src="https://cdn.jsdelivr.net/npm/aos@2/dist/aos.js"></script>
 <script src="assets/js/aos.min.js?v=1" type="module"></script>
+<script>
+
+</script>
 </body>
 
 </html>

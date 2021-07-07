@@ -12,16 +12,17 @@
 
 $font-family-sans-serif: "Source Han Sans", "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
-$body-color: #333333;
-$body-bg: #f4f4f4;
+$body-color: #666666;
+//$body-bg: #f4f4f4;
 $border-radius: .4rem;
 
 // card
 $card-title-spacer-y: 1rem;
 
 // color
-$primary: #1677FF;
+$primary: #1677ff;
 $secondary: #2196f3;
+$light: #f5f5f5;
 
 // accordion
 $accordion-button-focus-border-color: none;
@@ -38,7 +39,7 @@ $link-decoration: none;
 $link-hover-decoration: none;
 
 // nav
-$nav-link-padding-y: 0.7rem;
+$nav-link-padding-y: 1rem;
 
 // navbar
 $navbar-padding-y: 0;
