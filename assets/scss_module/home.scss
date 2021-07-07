@@ -29,42 +29,6 @@
       }
     }
 
-    .mainSlide_swiper {
-      .swiper-button-next, .swiper-button-prev {
-        width: 3.5rem;
-        height: 4.5rem;
-        color: $primary;
-        border-radius: 0.5rem;
-        background-color: rgba($secondary, 0.3);
-
-        &:after {
-          font-size: 2.5rem;
-        }
-      }
-
-      .swiper-button-next {
-        right: -5rem;
-        transition-duration: 0.3s;
-        transition-delay: 0.5s;
-      }
-
-      .swiper-button-prev {
-        left: -5rem;
-        transition-duration: 0.3s;
-        transition-delay: 0.5s;
-      }
-
-      &:hover .swiper-button-next {
-        right: 10rem;
-        transition-duration: 0.3s;
-      }
-
-      &:hover .swiper-button-prev {
-        left: 10rem;
-        transition-duration: 0.3s;
-      }
-    }
-
     .mainSlide_thumbs {
       position: absolute;
       bottom: 2vw;

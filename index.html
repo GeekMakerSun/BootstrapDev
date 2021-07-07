@@ -12,13 +12,13 @@
   <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" rel="stylesheet"/>
   <!-- aos -->
   <link href="https://cdn.jsdelivr.net/npm/aos@2/dist/aos.min.css" rel="stylesheet"/>
-  <!-- lightgallery -->
-  <link href="https://cdn.jsdelivr.net/npm/lightgallery@2/css/lightgallery.min.css" rel="stylesheet"/>
-  <link href="https://cdn.jsdelivr.net/npm/lightgallery@2/css/lightgallery-bundle.min.css" rel="stylesheet"/>
   <!-- Swiper -->
   <link href="https://cdn.jsdelivr.net/npm/swiper@6/swiper-bundle.min.css" rel="stylesheet">
+  <!-- video-js -->
+  <link href="https://cdn.jsdelivr.net/npm/video.js@7/dist/video-js.min.css" rel="stylesheet">
   <!-- Main css file -->
   <link href="./assets/css/main.css?v=1" rel="stylesheet"/>
+  <link href="./assets/css/videojs-geek.css?v=1" rel="stylesheet"/>
   <link href="./assets/css/sprites.css?v=1" rel="stylesheet"/>
   <!-- Custom styles -->
 
@@ -103,7 +103,7 @@
 <!-- E 导航条 -->
 <main>
   <!-- S 轮播图 -->
-  <div class="mainSlide">
+  <section class="mainSlide">
     <div class="swiper-container mainSlide_swiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
@@ -116,8 +116,6 @@
           <img alt="" src="./assets/img/banner.png"/>
         </div>
       </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
     </div>
     <div class="swiper-container mainSlide_thumbs" thumbsSlider="">
       <div class="swiper-wrapper">
@@ -138,8 +136,31 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
   <!-- E 轮播图 -->
+  <!--S 视频 -->
+  <section class="home_product-con mb-5">
+    <!--S container -->
+    <div class="" oncontextmenu="return false" style="width: 843px;height: 473px">
+      <video class="video-js vjs-geek" controls
+             data-setup='{ "aspectRatio":"843:473", "playbackRates": [0.5,1, 1.5, 2] }' height="473px" id="my-player"
+             poster="./assets/img/poster.png" preload="auto" width="843px">
+        <source
+          src="https://tbm-auth.alicdn.com/CQl8JnhZAtzu6sMYSdR/Y4itZycRck4UDMveqI8@@sd.mp4?auth_key=1625651186-0-0-9dc0616a8228e9e36ee4f04cff756d65"
+          type="video/mp4"></source>
+        <p class="vjs-no-js">
+          To view this video please enable JavaScript, and consider upgrading to a
+          web browser that
+          <a href="https://videojs.com/html5-video-support/" target="_blank">
+            supports HTML5 video
+          </a>
+        </p>
+      </video>
+
+    </div>
+    <!--E container -->
+  </section>
+  <!--E 视频 -->
   <!-- S 首页 产品图片组 -->
   <section class="home_product-con mb-5">
     <!-- S container -->
@@ -409,9 +430,8 @@
 <!-- aos -->
 <script src="https://cdn.jsdelivr.net/npm/aos@2/dist/aos.js"></script>
 <script src="assets/js/aos.min.js?v=1" type="module"></script>
-<script>
-
-</script>
+<!-- video-js -->
+<script src="https://cdn.jsdelivr.net/npm/video.js@7/dist/video.min.js"></script>
 </body>
 
 </html>
