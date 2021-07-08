@@ -1,9 +1,18 @@
 {
   "name": "bootstrapdev",
-  "version": "1.0.1",
+  "version": "1.4.0",
   "private": true,
-  "description": "",
-  "main": "index.js",
+  "description": "Demo project for building a Bootstrap powered site via npm.",
+  "author": "mdo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twbs/bootstrap-npm-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/twbs/bootstrap-npm-starter/issues"
+  },
+  "homepage": "https://github.com/twbs/bootstrap-npm-starter#readme",
   "scripts": {
     "build": "npm run css",
     "css-compile": "sass --style compressed --source-map --embed-sources --no-error-css --load-path=node_modules assets/scss/:assets/css/",
