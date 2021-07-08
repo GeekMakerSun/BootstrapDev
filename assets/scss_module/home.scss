@@ -5,7 +5,8 @@
 ***********/
 .home {
   section:not(.home_slide) {
-    padding: 4rem 0;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
     border-bottom: 0.15rem solid #e6e6e6;
   }
 
@@ -76,19 +77,19 @@
   // 首页视频
   .home_video {
     .home_video-player {
-      width: 57rem;
-      height: 34rem;
+      width: 57.0625rem;
+      height: 34.375rem;
       margin: auto;
-      padding-top: 2rem;
-      padding-left: 2rem;
+      padding-top: 2.375rem;
+      padding-left: 2.1875rem;
       background-image: url("/assets/img/home_video-player-bg.png");
       background-repeat: no-repeat;
       background-position: center;
       background-size: contain;
 
       & .video-js {
-        width: 53rem;
-        height: 30rem;
+        width: 52.6875rem;
+        height: 29.5625rem;
       }
     }
   }

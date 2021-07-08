@@ -52,7 +52,10 @@ header {
 
 // footer
 footer {
-  position: relative;
+  .footer_top {
+    border-bottom: 0.15rem solid #e6e6e6;
+    background: linear-gradient(0deg, rgba(245, 245, 245, 0.94), rgba(255, 255, 255, 0.94));
+  }
 
   .footer_tel-icon {
     font-size: 2.5rem;
@@ -61,7 +64,6 @@ footer {
 
     &::after {
       position: absolute;
-      content: "";
       z-index: 99;
       top: 50%;
       left: 50%;
@@ -69,6 +71,7 @@ footer {
       height: 4rem;
       margin-top: -2rem;
       margin-left: -2rem;
+      content: "";
       border: .18rem solid #ffffff;
       border-radius: 50%;
     }
@@ -76,14 +79,10 @@ footer {
 
   .footer_copyright {
     font-size: .9rem;
-    position: absolute;
-    bottom: 0;
-    left: 0;
     width: 100%;
     padding: .7rem 0;
     text-align: center;
     letter-spacing: .03rem;
-    background-color: rgba(0, 0, 0, .5);
   }
 }
 
@@ -96,12 +95,12 @@ footer {
   .nav-link.active:before,
   .nav-link:hover:before {
     position: absolute;
-    content: "";
     bottom: 0;
     left: 50%;
     width: 1.4rem;
     height: 0.2rem;
     margin-left: -0.7rem;
+    content: "";
     background-color: $primary;
   }
 
