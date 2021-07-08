@@ -1,66 +1,66 @@
 @import "variables";
 // 悬浮客服
 .customer-service {
-  color: #ffffff;
   font-size: 14px;
-  height: 150px;
   position: fixed;
-  right: 0;
-  top: 15vh;
-  width: 100px;
   z-index: 666666;
+  top: 15vh;
+  right: 0;
+  width: 100px;
+  height: 150px;
+  color: #ffffff;
 
   .customer-service-1 {
-    cursor: pointer;
-    height: 90px;
-    padding-left: 17px;
-    padding-top: 49px;
     position: absolute;
-    right: 0;
     top: 30px;
-    transition-duration: 0.3s;
+    right: 0;
     width: 53px;
+    height: 90px;
+    padding-top: 49px;
+    padding-left: 17px;
+    cursor: pointer;
+    transition-duration: 0.3s;
   }
 
   .customer-service-2 {
-    height: 300px;
     position: absolute;
-    right: -195px;
     top: -95px;
-    transition-duration: 0.3s;
+    right: -195px;
     width: 191px;
+    height: 300px;
+    transition-duration: 0.3s;
 
     & > .title {
-      left: 24px;
-      letter-spacing: 2px;
       line-height: 15px;
       position: absolute;
       top: 129px;
+      left: 24px;
       width: 35px;
+      letter-spacing: 2px;
     }
 
     & > .con {
-      height: 145px;
+      position: absolute;
+      top: 80px;
       left: 75px;
       overflow-y: auto;
-      position: absolute;
-      text-align: center;
-      top: 80px;
       width: 105px;
+      height: 145px;
+      text-align: center;
 
       a {
-        border-radius: 5px;
-        color: #7d7d7d;
         display: inline-block;
         padding: 5px 0;
+        color: #7d7d7d;
+        border-radius: 5px;
 
         span {
           margin-left: 5px;
         }
 
         &:hover {
-          background-color: $secondary;
           color: #ffffff;
+          background-color: $secondary;
         }
       }
     }
@@ -68,15 +68,15 @@
 
   &:hover {
     .customer-service-1 {
-      right: -55px;
       top: -10px;
+      right: -55px;
       transition-delay: 0.4s;
       transition-duration: 0.3s;
     }
 
     .customer-service-2 {
-      right: 0;
       top: 0;
+      right: 0;
       transition-delay: 0.7s;
       transition-duration: 0.3s;
     }
