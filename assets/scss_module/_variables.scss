@@ -14,15 +14,17 @@ $font-family-sans-serif: "Source Han Sans", "Segoe UI", roboto, "Helvetica Neue"
 
 $body-color: #666666;
 //$body-bg: #f4f4f4;
-$border-radius: .4rem;
-
-// card
-$card-title-spacer-y: 1rem;
+$border-radius: 0.5rem;
 
 // color
 $primary: #1677ff;
 $secondary: #2196f3;
 $light: #f5f5f5;
+
+// card
+$card-title-spacer-y: 1rem;
+$card-border-width: 0.15rem;
+$card-border-color: $primary;
 
 // accordion
 $accordion-button-focus-border-color: none;

@@ -1,33 +1,41 @@
 .vjs-geek {
   /* 改变播放器的所有文字和图标的颜色。 */
   &.video-js {
+    overflow: hidden;
     color: #1677ff;
+    border-radius: 0.5rem;
+    background: radial-gradient(#000000, transparent);
+
+    .vjs-tech {
+      -o-object-fit: fill;
+      object-fit: fill;
+    }
   }
 
   /* 改变大的播放按钮的边框。*/
   .vjs-big-play-button {
-    border-color: #717171;
-    border-radius: 50%;
+    line-height: 5rem;
     top: 50%;
-    margin-top: -2.5rem;
     left: 50%;
-    margin-left: -2.5rem;
     width: 5rem;
     height: 5rem;
+    margin-top: -2.5rem;
+    margin-left: -2.5rem;
     text-align: center;
-    line-height: 5rem;
+    border-color: #717171;
+    border-radius: 50%;
 
     .vjs-icon-placeholder {
       font-size: 4rem;
+      line-height: 5rem;
       top: 50%;
-      margin-top: -2.5rem;
       left: 50%;
-      margin-left: -2.5rem;
+      display: inline-block;
       width: 5rem;
       height: 5rem;
+      margin-top: -2.5rem;
+      margin-left: -2.5rem;
       text-align: center;
-      line-height: 5rem;
-      display: inline-block;
     }
   }
 

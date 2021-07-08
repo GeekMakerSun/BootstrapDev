@@ -1,11 +1,11 @@
-const mainSlideSwiper = new Swiper('.mainSlide_swiper', {
+const homeSlideSwiper = new Swiper('.home_slide-swiper', {
   loop: true,
   autoplay: {
     delay: 3000,
   },
   thumbs: {
     swiper: {
-      el: '.mainSlide_thumbs', //注意此处的设置方式
+      el: '.home_slide-thumbs', //注意此处的设置方式
       spaceBetween: '3%',
       slidesPerView: 3,
       freeMode: true,
