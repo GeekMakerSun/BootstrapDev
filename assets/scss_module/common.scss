@@ -53,8 +53,47 @@ header {
 // footer
 footer {
   .footer_top {
+    color: #999999;
     border-bottom: 0.15rem solid #e6e6e6;
     background: linear-gradient(0deg, rgba(245, 245, 245, 0.94), rgba(255, 255, 255, 0.94));
+
+    .footer_top-head {
+      width: 100%;
+      height: 4.6875rem;
+      border-bottom: 0.15rem solid $primary;
+    }
+
+    .footer_top-con .mt {
+      line-height: 1rem;
+      display: inline-block;
+      margin-top: 3.125rem;
+      color: #999999;
+    }
+
+    .footer_top-2 {
+      .footer_top-con div {
+        & > p {
+          margin-bottom: 3.125rem;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+
+    .footer_top-3 {
+      .icon-box {
+        width: 3.3rem;
+        height: 3.3rem;
+        border: 0.1rem solid $primary;
+      }
+
+      .text1 {
+        margin-top: 0.5rem;
+      }
+    }
+
   }
 
   .footer_tel-icon {
