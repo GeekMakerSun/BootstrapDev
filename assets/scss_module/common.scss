@@ -31,20 +31,12 @@ p {
 
 // header部分
 header {
-  .header_top {
-
-    .header_top-search {
-      padding: 0 0.5rem;
-      border-radius: 0.5rem;
-      background-color: $primary;
-    }
-  }
 
   .header_tel {
     font-family: "Impact", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-top: -0.2rem;
-    margin-left: -1.2rem;
+    margin-left: -1.15rem;
     letter-spacing: 0.07rem;
     color: $primary;
   }
@@ -52,49 +44,7 @@ header {
 
 // footer
 footer {
-  .footer_top {
-    color: #999999;
-    border-bottom: 0.15rem solid #e6e6e6;
-    background: linear-gradient(0deg, rgba(245, 245, 245, 0.94), rgba(255, 255, 255, 0.94));
-
-    .footer_top-head {
-      width: 100%;
-      height: 4.6875rem;
-      border-bottom: 0.15rem solid $primary;
-    }
-
-    .footer_top-con .mt {
-      line-height: 1rem;
-      display: inline-block;
-      margin-top: 3.125rem;
-      color: #999999;
-    }
-
-    .footer_top-2 {
-      .footer_top-con div {
-        & > p {
-          margin-bottom: 3.125rem;
-
-          &:last-child {
-            margin-bottom: 0;
-          }
-        }
-      }
-    }
-
-    .footer_top-3 {
-      .icon-box {
-        width: 3.3rem;
-        height: 3.3rem;
-        border: 0.1rem solid $primary;
-      }
-
-      .text1 {
-        margin-top: 0.5rem;
-      }
-    }
-
-  }
+  position: relative;
 
   .footer_tel-icon {
     font-size: 2.5rem;
@@ -111,17 +61,21 @@ footer {
       margin-top: -2rem;
       margin-left: -2rem;
       content: "";
-      border: .18rem solid #ffffff;
+      border: 0.18rem solid #ffffff;
       border-radius: 50%;
     }
   }
 
   .footer_copyright {
-    font-size: .9rem;
+    font-size: 0.9rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    padding: .7rem 0;
+    padding: 0.7rem 0;
     text-align: center;
-    letter-spacing: .03rem;
+    letter-spacing: 0.03rem;
+    background-color: rgba(0, 0, 0, 0.5);
   }
 }
 
