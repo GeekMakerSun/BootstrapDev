@@ -9,3 +9,11 @@
 //     }
 // });
 // var Title = $(".articleAdd .card-title").text()
+const pagesTitle = '修改为单页标题';
+// 重构img标签
+$('.articleAdd img').replaceWith(function () {
+    const imgSrc = $(this).attr('src');
+    return (
+        '<img alt="" src=' + imgSrc + " class='img-fluid img-thumbnail shadow-2-strong d-block mx-auto my-1' alt=" + pagesTitle + ' title=' + Title + ' />'
+    );
+})

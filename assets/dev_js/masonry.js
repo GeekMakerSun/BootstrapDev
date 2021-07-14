@@ -1,4 +1,4 @@
-let ias = new InfiniteAjaxScroll ('.masonry_article', {
+let ias = new InfiniteAjaxScroll('.masonry_article', {
     item: ".masonry_item", // 对应的每篇文章元素
     pagination: ".masonry_pager", // 对应下面的分页元素
     next: ".masonry_next", // 下一页元素
@@ -15,8 +15,8 @@ let ias = new InfiniteAjaxScroll ('.masonry_article', {
         }
     },
 });
-ias.on ('last', function () {
-    let el = document.querySelector ('.masonry_no-more');
+ias.on('last', function () {
+    let el = document.querySelector('.masonry_no-more');
     el.style.opacity = '1';
 });
 
@@ -25,3 +25,4 @@ ias.on ('last', function () {
 //     let state = history.state;
 //     history.replaceState(state, e.title, e.url);
 // });
+

@@ -1,35 +1,35 @@
 .masonry {
 
   .masonry_loader {
-    height: 40px;
-    margin-top: 0;
-    transition: opacity 300ms;
     animation: flipAnimation 1s infinite;
-    text-align: center;
-    opacity: 0;
     background: transparent url("../svg/loader.svg") no-repeat center center;
     background-size: 40px 19px;
+    height: 40px;
+    margin-top: 0;
+    opacity: 0;
+    text-align: center;
+    transition: opacity 300ms;
   }
 
   .masonry_no-more {
-    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-
-    line-height: 30px;
-    display: inline-block;
-    height: 32px;
-
-    padding: 0 16px;
-    transition: opacity 400ms;
-    vertical-align: middle;
-    text-decoration: none;
-    opacity: 0;
-
-    color: #999999;
-
     border: 1px solid #eeeeee;
     border-radius: 4px;
+    color: #999999;
+
+    display: inline-block;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 14px;
+
+    font-weight: normal;
+    height: 32px;
+    line-height: 30px;
+    opacity: 0;
+    padding: 0 16px;
+
+    text-decoration: none;
+
+    transition: opacity 400ms;
+    vertical-align: middle;
   }
 
   /* @see https://medium.com/designer-recipes/understanding-card-flip-animation-using-css-391c40ed3136 */
@@ -60,24 +60,24 @@
   }
 
   .masonry_pic {
-    width: 100%;
+    background-color: #f8f9fa;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 0;
     padding-bottom: 75%;
-    background-color: #f8f9fa;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    width: 100%;
   }
 
   .masonry_title {
     display: inline-block;
-    margin-bottom: 0.5rem;
     letter-spacing: 0.03rem;
+    margin-bottom: 0.5rem;
   }
 
   .masonry_desc {
+    letter-spacing: 0.07rem;
     line-height: 1.7;
     margin-bottom: 0.5rem;
-    letter-spacing: 0.07rem;
   }
 }
